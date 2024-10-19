@@ -9,14 +9,12 @@ from .utils import generate_and_send_otp, verify_otp, can_request_otp
 from django.contrib.auth import get_user_model
 from rest_framework_simplejwt.tokens import RefreshToken
 import logging
-
-
-
-logger = logging.getLogger('auth')  # Updated to match the logger in utils.py
+logger = logging.getLogger('auth') 
 User = get_user_model()
 
+
 @api_view(['POST'])
-@permission_classes([AllowAny])  # Allow unauthenticated users to request OTPs
+@permission_classes([AllowAny]) 
 def send_otp_email_view(request):
     logger.info("Received request to send OTP email.")
     serializer = EmailSerializer(data=request.data)
@@ -62,8 +60,8 @@ def verify_otp_email_view(request):
     serializer = OTPSerializer(data=request.data)
     if serializer.is_valid():
         email = serializer.validated_data['email']
-        code = serializer.validated_data['code']
-        logger.debug(f"Validated data - Email: {email}, OTP Code: {code}")
+        otp = serializer.validated_data['otp']
+        logger.debug(f"Validated data - Email: {email}, OTP Code: {otp}")
 
         try:
             user = User.objects.filter(username=email).first()
@@ -73,7 +71,7 @@ def verify_otp_email_view(request):
             return Response({"detail": "User with this email does not exist."}, status=status.HTTP_400_BAD_REQUEST)
 
         try:
-            success, message = verify_otp(user, code)
+            success, message = verify_otp(user,otp)
             if success:
                 logger.info(f"OTP verified successfully for user: {email}")
                 # Generate JWT tokens

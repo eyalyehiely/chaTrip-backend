@@ -3,7 +3,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
-from .models import CustomUser, OTP
+from .models import CustomUser, Otp
 
 @admin.register(CustomUser)
 class CustomUserAdmin(BaseUserAdmin):
@@ -29,8 +29,8 @@ class CustomUserAdmin(BaseUserAdmin):
         ),
     )
 
-@admin.register(OTP)
-class OTPAdmin(admin.ModelAdmin):
+@admin.register(Otp)
+class OtpAdmin(admin.ModelAdmin):
     """
     Admin interface for OTP model.
     """

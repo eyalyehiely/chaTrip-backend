@@ -7,4 +7,6 @@ class EmailSerializer(serializers.Serializer):
 
 class OTPSerializer(serializers.Serializer):
     email = serializers.EmailField()
-    code = serializers.CharField(max_length=6)
+    otp = serializers.CharField(max_length=6)
+
+
