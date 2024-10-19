@@ -35,6 +35,11 @@ class Otp(models.Model):
 
     def is_expired(self):
         return timezone.now() > self.created_at + timedelta(minutes=5)  # OTP valid for 5 minutes
+    
+    # def delete_function(self):
+    #     if self.is_expired:
+    #         self.delete()
+    # use with celery ?
 
     def __str__(self):
         return f"OTP for {self.user.username if self.user.username else 'Unknown username'}"
