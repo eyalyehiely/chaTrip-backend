@@ -8,14 +8,18 @@ from .serializers import EmailSerializer, OTPSerializer
 from .utils import generate_and_send_otp, verify_otp, can_request_otp
 from django.contrib.auth import get_user_model
 from rest_framework_simplejwt.tokens import RefreshToken
-import logging
+import logging,time
+from django_ratelimit.decorators import ratelimit
+
 logger = logging.getLogger('auth') 
 User = get_user_model()
 
 
 @api_view(['POST'])
+@ratelimit(key='ip', rate='5/m', method='POST', block=True)
 @permission_classes([AllowAny]) 
 def send_otp_email_view(request):
+    start_time = time.time()
     logger.info("Received request to send OTP email.")
     serializer = EmailSerializer(data=request.data)
     if serializer.is_valid():
@@ -31,6 +35,9 @@ def send_otp_email_view(request):
                 user.set_unusable_password()
                 user.save()
                 logger.debug(f"Created new user with email: {email}")
+                
+
+
         except Exception as e:
             logger.error(f"Error querying or creating user for email {email}: {str(e)}")
             return Response({"detail": "Internal server error."}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
@@ -45,6 +52,8 @@ def send_otp_email_view(request):
         try:
             generate_and_send_otp(user)
             logger.info(f"OTP generated and sent to email: {email}")
+            end_time = time.time()  # Capture end time
+            print(f"Function execution time: {end_time - start_time} seconds")
             return Response({"detail": "OTP sent successfully to your email."}, status=status.HTTP_200_OK)
         except Exception as e:
             logger.error(f"Failed to send OTP to email {email}: {str(e)}")
@@ -72,6 +81,7 @@ def verify_otp_email_view(request):
 
         try:
             success, message = verify_otp(user,otp)
+            print('success',success)
             if success:
                 logger.info(f"OTP verified successfully for user: {email}")
                 # Generate JWT tokens
