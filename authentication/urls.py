@@ -1,9 +1,9 @@
 # authentication/urls.py
 
 from django.urls import path
-from . import views
+from .views import *
 
 urlpatterns = [
-    path('send-otp/', views.send_otp, name='send_otp'),
-    path('verify-otp/', views.verify_otp_view, name='verify_otp'),
+    path('send-otp-email/', send_otp_email_view, name='send_otp_email'),
+    path('verify-otp-email/', verify_otp_email_view, name='verify_otp_email'),
 ]
