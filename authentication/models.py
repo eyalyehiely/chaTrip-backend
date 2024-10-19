@@ -1,12 +1,16 @@
-from datetime import timedelta
+# authentication/models.py
+
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-import uuid,hashlib
+import uuid, hashlib
 from django.utils import timezone
+from datetime import timedelta
 
 class CustomUser(AbstractUser):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    username = models.CharField(unique=True, max_length=15, blank=True, null=True)
+    username = models.EmailField(unique=True)
+
+    USERNAME_FIELD = 'username'
+    REQUIRED_FIELDS = []  # Add other required fields here if necessary
 
     def __str__(self):
         return self.username
@@ -28,4 +32,4 @@ class OTP(models.Model):
         return timezone.now() > self.created_at + timedelta(minutes=5)  # OTP valid for 5 minutes
 
     def __str__(self):
-        return f"OTP for {self.user.username}"
+        return f"OTP for {self.user.email}"
