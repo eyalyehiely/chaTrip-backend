@@ -1,0 +1,21 @@
+INFO 2024-10-19 09:34:40,094 views 86286 6156546048 Received request to send OTP email.
+DEBUG 2024-10-19 09:34:40,095 views 86286 6156546048 Validated email: eyalwork0@gmail.com
+INFO 2024-10-19 09:34:40,099 views 86286 6156546048 Found existing user for email: eyalwork0@gmail.com
+ERROR 2024-10-19 09:34:40,144 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
+ERROR 2024-10-19 09:34:40,144 views 86286 6156546048 Failed to send OTP to email eyalwork0@gmail.com: [Errno 8] nodename nor servname provided, or not known
+INFO 2024-10-19 09:35:16,221 views 86286 6156546048 Received request to send OTP email.
+DEBUG 2024-10-19 09:35:16,221 views 86286 6156546048 Validated email: eyal@talent-bridge.org
+INFO 2024-10-19 09:35:16,224 views 86286 6156546048 Found existing user for email: eyal@talent-bridge.org
+ERROR 2024-10-19 09:35:16,272 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
+ERROR 2024-10-19 09:35:16,272 views 86286 6156546048 Failed to send OTP to email eyal@talent-bridge.org: [Errno 8] nodename nor servname provided, or not known
+INFO 2024-10-19 09:36:35,491 views 86286 6156546048 Received request to send OTP email.
+DEBUG 2024-10-19 09:36:35,492 views 86286 6156546048 Validated email: eyal@talent-bridge.org
+INFO 2024-10-19 09:36:35,495 views 86286 6156546048 No existing user found for email: eyal@talent-bridge.org. Creating a new user.
+DEBUG 2024-10-19 09:36:35,501 views 86286 6156546048 Created new user with email: eyal@talent-bridge.org
+ERROR 2024-10-19 09:36:35,543 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
+ERROR 2024-10-19 09:36:35,543 views 86286 6156546048 Failed to send OTP to email eyal@talent-bridge.org: [Errno 8] nodename nor servname provided, or not known
+INFO 2024-10-19 09:42:30,083 views 86945 6204174336 Received request to send OTP email.
+DEBUG 2024-10-19 09:42:30,086 views 86945 6204174336 Validated email: eyal@talent-bridge.org
+INFO 2024-10-19 09:42:30,090 views 86945 6204174336 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-19 09:42:33,464 utils 86945 6204174336 Sent OTP to .
+INFO 2024-10-19 09:42:33,469 views 86945 6204174336 OTP generated and sent to email: eyal@talent-bridge.org

@@ -5,26 +5,10 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 from .models import CustomUser, OTP
 
-class OTPInline(admin.TabularInline):
-    """
-    Inline display of OTPs within the CustomUser admin page.
-    """
-    model = OTP
-    fields = ('created_at', 'is_used', 'is_expired')
-    readonly_fields = ('created_at', 'is_used', 'is_expired')
-    extra = 0
-    can_delete = False
-    show_change_link = False
-
-    def is_expired(self, obj):
-        return obj.is_expired()
-    is_expired.boolean = True
-    is_expired.short_description = 'Expired?'
-
 @admin.register(CustomUser)
 class CustomUserAdmin(BaseUserAdmin):
     """
-    Custom admin for CustomUser model with OTP inline.
+    Custom admin for CustomUser model.
     """
 
     list_display = ('username', 'is_staff', 'is_active', 'date_joined')
@@ -44,13 +28,6 @@ class CustomUserAdmin(BaseUserAdmin):
             'fields': ('username', 'password1', 'password2', 'is_staff', 'is_active')}
         ),
     )
-
-    inlines = [OTPInline]
-
-    def get_readonly_fields(self, request, obj=None):
-        if obj:  # Editing an existing object
-            return self.readonly_fields + ('username',)
-        return self.readonly_fields
 
 @admin.register(OTP)
 class OTPAdmin(admin.ModelAdmin):
