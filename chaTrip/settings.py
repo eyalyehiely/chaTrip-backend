@@ -230,4 +230,4 @@ LOGGING = {
     },
 }
 
-GOOGLE_PLACES_API_KEY ='AIzaSyA4foWbkFfe_bYooWQshqrblHnf_gLxIW4'
+GOOGLE_PLACES_API_KEY = os.getenv('GOOGLE_PLACES_API_KEY') 
