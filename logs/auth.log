@@ -1,637 +1,341 @@
-INFO 2024-10-19 09:34:40,094 views 86286 6156546048 Received request to send OTP email.
-DEBUG 2024-10-19 09:34:40,095 views 86286 6156546048 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 09:34:40,099 views 86286 6156546048 Found existing user for email: eyalwork0@gmail.com
-ERROR 2024-10-19 09:34:40,144 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
-ERROR 2024-10-19 09:34:40,144 views 86286 6156546048 Failed to send OTP to email eyalwork0@gmail.com: [Errno 8] nodename nor servname provided, or not known
-INFO 2024-10-19 09:35:16,221 views 86286 6156546048 Received request to send OTP email.
-DEBUG 2024-10-19 09:35:16,221 views 86286 6156546048 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 09:35:16,224 views 86286 6156546048 Found existing user for email: eyal@talent-bridge.org
-ERROR 2024-10-19 09:35:16,272 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
-ERROR 2024-10-19 09:35:16,272 views 86286 6156546048 Failed to send OTP to email eyal@talent-bridge.org: [Errno 8] nodename nor servname provided, or not known
-INFO 2024-10-19 09:36:35,491 views 86286 6156546048 Received request to send OTP email.
-DEBUG 2024-10-19 09:36:35,492 views 86286 6156546048 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 09:36:35,495 views 86286 6156546048 No existing user found for email: eyal@talent-bridge.org. Creating a new user.
-DEBUG 2024-10-19 09:36:35,501 views 86286 6156546048 Created new user with email: eyal@talent-bridge.org
-ERROR 2024-10-19 09:36:35,543 utils 86286 6156546048 Failed to send OTP email: [Errno 8] nodename nor servname provided, or not known
-ERROR 2024-10-19 09:36:35,543 views 86286 6156546048 Failed to send OTP to email eyal@talent-bridge.org: [Errno 8] nodename nor servname provided, or not known
-INFO 2024-10-19 09:42:30,083 views 86945 6204174336 Received request to send OTP email.
-DEBUG 2024-10-19 09:42:30,086 views 86945 6204174336 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 09:42:30,090 views 86945 6204174336 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 09:42:33,464 utils 86945 6204174336 Sent OTP to .
-INFO 2024-10-19 09:42:33,469 views 86945 6204174336 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 09:49:26,310 views 87495 6194999296 Received request to verify OTP.
-WARNING 2024-10-19 09:49:26,314 views 87495 6194999296 Invalid serializer data: {'code': [ErrorDetail(string='This field is required.', code='required')]}
-INFO 2024-10-19 09:49:40,493 views 87495 6194999296 Received request to send OTP email.
-DEBUG 2024-10-19 09:49:40,494 views 87495 6194999296 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 09:49:40,499 views 87495 6194999296 No existing user found for email: eyalwork0@gmail.com. Creating a new user.
-DEBUG 2024-10-19 09:49:40,506 views 87495 6194999296 Created new user with email: eyalwork0@gmail.com
-INFO 2024-10-19 09:49:43,357 utils 87495 6194999296 Sent OTP to .
-INFO 2024-10-19 09:49:43,361 views 87495 6194999296 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 09:49:57,559 views 87495 6194999296 Received request to verify OTP.
-WARNING 2024-10-19 09:49:57,560 views 87495 6194999296 Invalid serializer data: {'code': [ErrorDetail(string='This field is required.', code='required')]}
-INFO 2024-10-19 09:53:01,616 views 87570 6161854464 Received request to verify OTP.
-INFO 2024-10-19 09:54:06,635 views 87630 6194409472 Received request to send OTP email.
-DEBUG 2024-10-19 09:54:06,638 views 87630 6194409472 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 09:54:06,643 views 87630 6194409472 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 09:54:09,926 utils 87630 6194409472 Sent OTP to .
-INFO 2024-10-19 09:54:09,932 views 87630 6194409472 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 09:54:19,798 views 87630 6194409472 Received request to verify OTP.
-WARNING 2024-10-19 09:54:19,799 views 87630 6194409472 Invalid serializer data: {'otp': [ErrorDetail(string='Ensure this field has no more than 6 characters.', code='max_length')]}
-INFO 2024-10-19 09:54:30,522 views 87630 6194409472 Received request to verify OTP.
-DEBUG 2024-10-19 09:54:30,523 views 87630 6194409472 Validated data - Email: eyalwork0@gmail.com, OTP Code: 334423
-INFO 2024-10-19 09:54:30,526 views 87630 6194409472 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 09:54:30,527 views 87630 6194409472 OTP verification failed for user: eyalwork0@gmail.com. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 09:54:54,230 views 87630 6194409472 Received request to verify OTP.
-DEBUG 2024-10-19 09:54:54,231 views 87630 6194409472 Validated data - Email: eyalwork0@gmail.com, OTP Code: 406714
-INFO 2024-10-19 09:54:54,233 views 87630 6194409472 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 09:54:54,235 views 87630 6194409472 OTP verification failed for user: eyalwork0@gmail.com. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 09:55:15,633 views 87630 6194409472 Received request to verify OTP.
-DEBUG 2024-10-19 09:55:15,635 views 87630 6194409472 Validated data - Email: eyalwork0@gmail.com, OTP Code: 775898
-INFO 2024-10-19 09:55:15,637 views 87630 6194409472 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 09:55:15,638 views 87630 6194409472 OTP verification failed for user: eyalwork0@gmail.com. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 10:03:27,777 views 87630 6194409472 Received request to send OTP email.
-DEBUG 2024-10-19 10:03:27,778 views 87630 6194409472 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:03:27,783 views 87630 6194409472 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:03:31,110 utils 87630 6194409472 Sent OTP to .
-INFO 2024-10-19 10:03:31,114 views 87630 6194409472 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:04:19,356 views 87630 6194409472 Received request to send OTP email.
-DEBUG 2024-10-19 10:04:19,357 views 87630 6194409472 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:04:19,360 views 87630 6194409472 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:04:22,420 utils 87630 6194409472 Sent OTP to .
-INFO 2024-10-19 10:04:22,427 views 87630 6194409472 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:04:35,305 views 87630 6194409472 Received request to verify OTP.
-DEBUG 2024-10-19 10:04:35,306 views 87630 6194409472 Validated data - Email: eyalwork0@gmail.com, OTP Code: 566183
-INFO 2024-10-19 10:04:35,310 views 87630 6194409472 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 10:04:35,311 views 87630 6194409472 OTP verification failed for user: eyalwork0@gmail.com. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 10:13:46,572 views 87946 6174846976 Received request to send OTP email.
-DEBUG 2024-10-19 10:13:46,575 views 87946 6174846976 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:13:46,579 views 87946 6174846976 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:13:49,845 utils 87946 6174846976 Sent OTP to .
-INFO 2024-10-19 10:13:49,851 views 87946 6174846976 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:14:19,242 views 87946 6174846976 Received request to verify OTP.
-DEBUG 2024-10-19 10:14:19,244 views 87946 6174846976 Validated data - Email: eyalwork0@gmail.com, OTP Code: 444820
-INFO 2024-10-19 10:14:19,248 views 87946 6174846976 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 10:14:19,249 views 87946 6174846976 OTP verification failed for user: eyalwork0@gmail.com. Reason: Invalid OTP.
-INFO 2024-10-19 10:24:04,395 views 88100 6128873472 Received request to send OTP email.
-DEBUG 2024-10-19 10:24:04,398 views 88100 6128873472 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:24:04,402 views 88100 6128873472 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:24:04,407 utils 88100 6128873472 OTP entry saved for user: 
-INFO 2024-10-19 10:24:07,110 utils 88100 6128873472 Sent OTP to .
-INFO 2024-10-19 10:24:07,114 views 88100 6128873472 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:24:24,917 views 88100 6128873472 Received request to verify OTP.
-DEBUG 2024-10-19 10:24:24,920 views 88100 6128873472 Validated data - Email: eyalwork0@gmail.com, OTP Code: 887028
-INFO 2024-10-19 10:24:24,923 views 88100 6128873472 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 10:24:24,924 utils 88100 6128873472 Retrieved OTP entry: OTP for  for user: 
-ERROR 2024-10-19 10:24:24,924 views 88100 6128873472 Error during OTP verification for user eyalwork0@gmail.com: 'OTP' object has no attribute 'attempt_count'
-INFO 2024-10-19 10:27:44,292 views 88226 6193426432 Received request to send OTP email.
-DEBUG 2024-10-19 10:27:44,296 views 88226 6193426432 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:27:44,300 views 88226 6193426432 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:27:44,309 utils 88226 6193426432 OTP entry saved for user: 
-INFO 2024-10-19 10:27:46,781 utils 88226 6193426432 Sent OTP to .
-INFO 2024-10-19 10:27:46,786 views 88226 6193426432 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:28:00,659 views 88226 6193426432 Received request to verify OTP.
-DEBUG 2024-10-19 10:28:00,660 views 88226 6193426432 Validated data - Email: eyalwork0@gmail.com, OTP Code: 167054
-INFO 2024-10-19 10:28:00,663 views 88226 6193426432 Found user for OTP verification: eyalwork0@gmail.com
-ERROR 2024-10-19 10:28:00,663 views 88226 6193426432 Error during OTP verification for user eyalwork0@gmail.com: Field 'id' expected a number but got 'eyalwork0@gmail.com'.
-INFO 2024-10-19 10:29:13,949 views 88311 6134853632 Received request to send OTP email.
-DEBUG 2024-10-19 10:29:13,951 views 88311 6134853632 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:29:13,954 views 88311 6134853632 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:29:13,962 utils 88311 6134853632 OTP entry saved for user: 
-INFO 2024-10-19 10:29:17,196 utils 88311 6134853632 Sent OTP to .
-INFO 2024-10-19 10:29:17,201 views 88311 6134853632 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:29:26,488 views 88311 6134853632 Received request to verify OTP.
-DEBUG 2024-10-19 10:29:26,489 views 88311 6134853632 Validated data - Email: eyalwork0@gmail.com, OTP Code: 326158
-INFO 2024-10-19 10:29:26,492 views 88311 6134853632 Found user for OTP verification: eyalwork0@gmail.com
-ERROR 2024-10-19 10:29:26,492 views 88311 6134853632 Error during OTP verification for user eyalwork0@gmail.com: Field 'id' expected a number but got 'eyalwork0@gmail.com'.
-INFO 2024-10-19 10:31:14,745 views 88372 6170734592 Received request to send OTP email.
-DEBUG 2024-10-19 10:31:14,749 views 88372 6170734592 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:31:14,753 views 88372 6170734592 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 10:31:14,760 utils 88372 6170734592 OTP entry saved for user: 
-INFO 2024-10-19 10:31:17,800 utils 88372 6170734592 Sent OTP to .
-INFO 2024-10-19 10:31:17,804 views 88372 6170734592 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 10:31:28,514 views 88372 6170734592 Received request to verify OTP.
-DEBUG 2024-10-19 10:31:28,515 views 88372 6170734592 Validated data - Email: eyalwork0@gmail.com, OTP Code: 140943
-INFO 2024-10-19 10:31:28,517 views 88372 6170734592 Found user for OTP verification: eyalwork0@gmail.com
-ERROR 2024-10-19 10:31:28,518 views 88372 6170734592 Error during OTP verification for user eyalwork0@gmail.com: Field 'id' expected a number but got 'eyalwork0@gmail.com'.
-INFO 2024-10-19 10:38:46,199 views 88558 6192230400 Received request to send OTP email.
-DEBUG 2024-10-19 10:38:46,203 views 88558 6192230400 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:38:46,206 views 88558 6192230400 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 10:38:46,208 views 88558 6192230400 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 10:39:05,967 views 88558 6192230400 Received request to send OTP email.
-DEBUG 2024-10-19 10:39:05,968 views 88558 6192230400 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 10:39:05,972 views 88558 6192230400 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 10:39:05,974 views 88558 6192230400 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 10:39:11,270 views 88558 6192230400 Received request to send OTP email.
-DEBUG 2024-10-19 10:39:11,271 views 88558 6192230400 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:39:11,273 views 88558 6192230400 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 10:39:11,281 utils 88558 6192230400 OTP entry saved for user: 
-INFO 2024-10-19 10:39:14,161 utils 88558 6192230400 Sent OTP to .
-INFO 2024-10-19 10:39:14,167 views 88558 6192230400 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 10:39:32,828 views 88558 6192230400 Received request to verify OTP.
-INFO 2024-10-19 10:40:06,996 views 88597 6122958848 Received request to verify OTP.
-DEBUG 2024-10-19 10:40:07,003 views 88597 6122958848 Validated data - Email: eyal@talent-bridge.org, OTP Code: 750122
-WARNING 2024-10-19 10:40:07,005 utils 88597 6122958848 No OTP found for user: eyal@talent-bridge.org
-WARNING 2024-10-19 10:40:07,006 views 88597 6122958848 OTP verification failed for user: eyal@talent-bridge.org. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 10:40:11,156 views 88597 6122958848 Received request to send OTP email.
-DEBUG 2024-10-19 10:40:11,157 views 88597 6122958848 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:40:11,159 views 88597 6122958848 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 10:40:11,168 utils 88597 6122958848 OTP entry saved for user: 
-INFO 2024-10-19 10:40:14,456 utils 88597 6122958848 Sent OTP to .
-INFO 2024-10-19 10:40:14,462 views 88597 6122958848 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 10:40:25,969 views 88597 6122958848 Received request to verify OTP.
-DEBUG 2024-10-19 10:40:25,972 views 88597 6122958848 Validated data - Email: eyal@talent-bridge.org, OTP Code: 300946
-WARNING 2024-10-19 10:40:25,974 utils 88597 6122958848 No OTP found for user: eyal@talent-bridge.org
-WARNING 2024-10-19 10:40:25,974 views 88597 6122958848 OTP verification failed for user: eyal@talent-bridge.org. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 10:41:42,601 views 88651 6161035264 Received request to send OTP email.
-DEBUG 2024-10-19 10:41:42,605 views 88651 6161035264 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:41:42,609 views 88651 6161035264 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 10:41:42,615 utils 88651 6161035264 OTP entry saved for user: 
-INFO 2024-10-19 10:41:45,648 utils 88651 6161035264 Sent OTP to .
-INFO 2024-10-19 10:41:45,654 views 88651 6161035264 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 10:43:56,564 views 88651 6161035264 Received request to send OTP email.
-DEBUG 2024-10-19 10:43:56,565 views 88651 6161035264 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:43:56,568 views 88651 6161035264 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 10:43:56,575 utils 88651 6161035264 OTP entry saved for user: 
-INFO 2024-10-19 10:43:59,143 utils 88651 6161035264 Sent OTP to .
-INFO 2024-10-19 10:43:59,149 views 88651 6161035264 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 10:44:27,573 views 88651 6161035264 Received request to verify OTP.
-DEBUG 2024-10-19 10:44:27,574 views 88651 6161035264 Validated data - Email: eyal@talent-bridge.org, OTP Code: 349501
-INFO 2024-10-19 10:44:27,577 views 88651 6161035264 Found user for OTP verification: eyal@talent-bridge.org
-ERROR 2024-10-19 10:44:27,578 views 88651 6161035264 Error during OTP verification for user eyal@talent-bridge.org: Field 'id' expected a number but got 'eyal@talent-bridge.org'.
-INFO 2024-10-19 10:46:13,956 views 88759 6168588288 Received request to send OTP email.
-DEBUG 2024-10-19 10:46:13,960 views 88759 6168588288 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:46:13,964 views 88759 6168588288 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 10:46:13,973 utils 88759 6168588288 OTP entry saved for user: 
-INFO 2024-10-19 10:46:17,215 utils 88759 6168588288 Sent OTP to .
-INFO 2024-10-19 10:46:17,220 views 88759 6168588288 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 10:46:36,856 views 88759 6168588288 Received request to verify OTP.
-DEBUG 2024-10-19 10:46:36,857 views 88759 6168588288 Validated data - Email: eyal@talent-bridge.org, OTP Code: 775297
-INFO 2024-10-19 10:46:36,859 views 88759 6168588288 Found user for OTP verification: eyal@talent-bridge.org
-ERROR 2024-10-19 10:46:36,859 views 88759 6168588288 Error during OTP verification for user eyal@talent-bridge.org: Field 'id' expected a number but got 'eyal@talent-bridge.org'.
-INFO 2024-10-19 10:50:04,150 views 88808 6158888960 Received request to send OTP email.
-DEBUG 2024-10-19 10:50:04,154 views 88808 6158888960 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 10:50:04,157 views 88808 6158888960 Found existing user for email: eyal@talent-bridge.org
-WARNING 2024-10-19 10:50:04,159 views 88808 6158888960 OTP request limit exceeded for user: eyal@talent-bridge.org
-INFO 2024-10-19 10:50:23,860 views 88808 6158888960 Received request to send OTP email.
-DEBUG 2024-10-19 10:50:23,861 views 88808 6158888960 Validated email: support@talent-bridge.org
-INFO 2024-10-19 10:50:23,865 views 88808 6158888960 No existing user found for email: support@talent-bridge.org. Creating a new user.
-DEBUG 2024-10-19 10:50:23,870 views 88808 6158888960 Created new user with email: support@talent-bridge.org
-INFO 2024-10-19 10:50:23,877 utils 88808 6158888960 OTP entry saved for user: 
-INFO 2024-10-19 10:50:27,155 utils 88808 6158888960 Sent OTP to .
-INFO 2024-10-19 10:50:27,162 views 88808 6158888960 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 10:51:04,999 views 88808 6158888960 Received request to verify OTP.
-DEBUG 2024-10-19 10:51:05,000 views 88808 6158888960 Validated data - Email: support@talent-bridge.org, OTP Code: 979311
-INFO 2024-10-19 10:51:05,005 views 88808 6158888960 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:51:05,007 utils 88808 6158888960 Retrieved OTP entry: OTP for  for user: 
-ERROR 2024-10-19 10:51:05,007 views 88808 6158888960 Error during OTP verification for user support@talent-bridge.org: 'OTP' object has no attribute 'attempt_count'
-INFO 2024-10-19 10:52:00,222 views 88909 6204289024 Received request to send OTP email.
-DEBUG 2024-10-19 10:52:00,226 views 88909 6204289024 Validated email: support@talent-bridge.org
-INFO 2024-10-19 10:52:00,229 views 88909 6204289024 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 10:52:00,236 utils 88909 6204289024 OTP entry saved for user: 
-INFO 2024-10-19 10:52:03,108 utils 88909 6204289024 Sent OTP to .
-INFO 2024-10-19 10:52:03,114 views 88909 6204289024 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 10:52:16,475 views 88909 6204289024 Received request to verify OTP.
-DEBUG 2024-10-19 10:52:16,475 views 88909 6204289024 Validated data - Email: support@talent-bridge.org, OTP Code: 703367
-INFO 2024-10-19 10:52:16,480 views 88909 6204289024 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:52:16,482 utils 88909 6204289024 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:52:16,484 utils 88909 6204289024 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 10:52:16,484 views 88909 6204289024 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 10:55:40,541 views 88966 6204633088 Received request to send OTP email.
-DEBUG 2024-10-19 10:55:40,545 views 88966 6204633088 Validated email: support@talent-bridge.org
-INFO 2024-10-19 10:55:40,551 views 88966 6204633088 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 10:55:40,558 utils 88966 6204633088 OTP entry saved for user: 
-INFO 2024-10-19 10:55:43,233 utils 88966 6204633088 Sent OTP to .
-INFO 2024-10-19 10:55:43,239 views 88966 6204633088 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 10:56:14,175 views 88966 6204633088 Received request to verify OTP.
-DEBUG 2024-10-19 10:56:14,176 views 88966 6204633088 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:56:14,179 views 88966 6204633088 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:56:14,182 utils 88966 6204633088 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:56:14,185 utils 88966 6204633088 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 10:56:14,185 views 88966 6204633088 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 10:56:45,506 views 88966 6204633088 Received request to verify OTP.
-DEBUG 2024-10-19 10:56:45,506 views 88966 6204633088 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:56:45,509 views 88966 6204633088 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:56:45,510 utils 88966 6204633088 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:56:45,513 utils 88966 6204633088 Invalid OTP code provided for user: . Attempt 2/5
-WARNING 2024-10-19 10:56:45,513 views 88966 6204633088 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 10:57:09,807 views 89012 6167441408 Received request to verify OTP.
-DEBUG 2024-10-19 10:57:09,810 views 89012 6167441408 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:57:09,812 views 89012 6167441408 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:57:09,813 utils 89012 6167441408 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:57:09,814 utils 89012 6167441408 Invalid OTP code provided for user: . Attempt 3/5
-WARNING 2024-10-19 10:57:09,815 views 89012 6167441408 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 10:57:57,263 views 89062 6129856512 Received request to verify OTP.
-DEBUG 2024-10-19 10:57:57,268 views 89062 6129856512 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:57:57,272 views 89062 6129856512 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:57:57,274 utils 89062 6129856512 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:57:57,276 utils 89062 6129856512 Invalid OTP code provided for user: . Attempt 4/5
-WARNING 2024-10-19 10:57:57,277 views 89062 6129856512 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 10:59:38,066 views 89062 6129856512 Received request to verify OTP.
-DEBUG 2024-10-19 10:59:38,067 views 89062 6129856512 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:59:38,071 views 89062 6129856512 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:59:38,074 utils 89062 6129856512 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 10:59:38,076 utils 89062 6129856512 Invalid OTP code provided for user: . Attempt 5/5
-WARNING 2024-10-19 10:59:38,077 utils 89062 6129856512 Maximum OTP attempts exceeded for user: 
-WARNING 2024-10-19 10:59:38,077 views 89062 6129856512 OTP verification failed for user: support@talent-bridge.org. Reason: Maximum OTP attempts exceeded. Please request a new OTP.
-INFO 2024-10-19 10:59:55,796 views 89086 6121910272 Received request to verify OTP.
-DEBUG 2024-10-19 10:59:55,799 views 89086 6121910272 Validated data - Email: support@talent-bridge.org, OTP Code: 604184
-INFO 2024-10-19 10:59:55,802 views 89086 6121910272 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 10:59:55,804 utils 89086 6121910272 Retrieved OTP entry: OTP for  for user: 
-INFO 2024-10-19 10:59:55,804 utils 89086 6121910272 OTP expired for user: 
-WARNING 2024-10-19 10:59:55,804 views 89086 6121910272 OTP verification failed for user: support@talent-bridge.org. Reason: OTP has expired.
-INFO 2024-10-19 11:00:07,470 views 89086 6121910272 Received request to send OTP email.
-DEBUG 2024-10-19 11:00:07,471 views 89086 6121910272 Validated email: support@talent-bridge.org
-INFO 2024-10-19 11:00:07,476 views 89086 6121910272 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 11:00:07,487 utils 89086 6121910272 OTP entry saved for user: 
-INFO 2024-10-19 11:00:10,190 utils 89086 6121910272 Sent OTP to .
-INFO 2024-10-19 11:00:10,196 views 89086 6121910272 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 11:00:39,092 views 89128 6163378176 Received request to verify OTP.
-DEBUG 2024-10-19 11:00:39,096 views 89128 6163378176 Validated data - Email: support@talent-bridge.org, OTP Code: 420122
-INFO 2024-10-19 11:00:39,100 views 89128 6163378176 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 11:00:39,103 utils 89128 6163378176 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 11:00:39,106 utils 89128 6163378176 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 11:00:39,106 views 89128 6163378176 OTP verification failed for user: support@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 11:01:07,571 views 89141 6203355136 Received request to verify OTP.
-DEBUG 2024-10-19 11:01:07,576 views 89141 6203355136 Validated data - Email: support@talent-bridge.org, OTP Code: 420122
-INFO 2024-10-19 11:01:07,580 views 89141 6203355136 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 11:01:07,582 utils 89141 6203355136 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 11:01:07,584 utils 89141 6203355136 Invalid OTP code provided for user: . Attempt 2/5
-ERROR 2024-10-19 11:01:07,584 views 89141 6203355136 Error during OTP verification for user support@talent-bridge.org: cannot unpack non-iterable NoneType object
-INFO 2024-10-19 11:02:19,593 views 89166 6158905344 Received request to verify OTP.
-DEBUG 2024-10-19 11:02:19,596 views 89166 6158905344 Validated data - Email: support@talent-bridge.org, OTP Code: 420122
-INFO 2024-10-19 11:02:19,599 views 89166 6158905344 Found user for OTP verification: support@talent-bridge.org
-DEBUG 2024-10-19 11:02:19,602 utils 89166 6158905344 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 11:02:19,604 utils 89166 6158905344 Invalid OTP code provided for user: . Attempt 3/5
-ERROR 2024-10-19 11:02:19,604 views 89166 6158905344 Error during OTP verification for user support@talent-bridge.org: cannot unpack non-iterable NoneType object
-INFO 2024-10-19 11:02:42,105 views 89185 6129479680 Received request to verify OTP.
-DEBUG 2024-10-19 11:02:42,111 views 89185 6129479680 Validated data - Email: support@talent-bridge.org, OTP Code: 420122
-INFO 2024-10-19 11:02:42,115 views 89185 6129479680 Found user for OTP verification: support@talent-bridge.org
-ERROR 2024-10-19 11:02:42,118 views 89185 6129479680 Error during OTP verification for user support@talent-bridge.org: 'QuerySet' object has no attribute 'user'
-INFO 2024-10-19 11:03:22,442 views 89193 6199570432 Received request to verify OTP.
-DEBUG 2024-10-19 11:03:22,445 views 89193 6199570432 Validated data - Email: support@talent-bridge.org, OTP Code: 420122
-INFO 2024-10-19 11:03:22,447 views 89193 6199570432 Found user for OTP verification: support@talent-bridge.org
-ERROR 2024-10-19 11:03:22,448 views 89193 6199570432 Error during OTP verification for user support@talent-bridge.org: Cannot resolve keyword 'username' into field. Choices are: attempt_count, code_hash, created_at, id, is_used, user, user_id
-INFO 2024-10-19 14:40:28,842 views 89451 6162853888 Received request to send OTP email.
-DEBUG 2024-10-19 14:40:28,845 views 89451 6162853888 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 14:40:28,849 views 89451 6162853888 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 14:40:28,860 utils 89451 6162853888 OTP entry saved for user: 
-INFO 2024-10-19 14:40:31,694 utils 89451 6162853888 Sent OTP to .
-INFO 2024-10-19 14:40:31,697 views 89451 6162853888 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 14:40:47,251 views 89451 6162853888 Received request to verify OTP.
-DEBUG 2024-10-19 14:40:47,252 views 89451 6162853888 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:40:47,255 views 89451 6162853888 Found user for OTP verification: eyalwork0@gmail.com
-WARNING 2024-10-19 14:40:47,258 utils 89451 6162853888 No OTP found for user: eyal@talent-bridge.org
-WARNING 2024-10-19 14:40:47,258 views 89451 6162853888 OTP verification failed for user: eyalwork0@gmail.com. Reason: No OTP found. Please request a new one.
-INFO 2024-10-19 14:42:03,574 views 89495 6131953664 Received request to verify OTP.
-DEBUG 2024-10-19 14:42:03,578 views 89495 6131953664 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:42:03,583 views 89495 6131953664 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 14:42:03,585 utils 89495 6131953664 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 14:42:03,587 utils 89495 6131953664 Invalid OTP code provided for user: . Attempt 1/5
-ERROR 2024-10-19 14:42:03,588 views 89495 6131953664 Error during OTP verification for user eyalwork0@gmail.com: cannot unpack non-iterable NoneType object
-INFO 2024-10-19 14:42:34,120 views 89530 6190657536 Received request to verify OTP.
-DEBUG 2024-10-19 14:42:34,125 views 89530 6190657536 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:42:34,129 views 89530 6190657536 Found user for OTP verification: eyalwork0@gmail.com
-ERROR 2024-10-19 14:42:34,133 views 89530 6190657536 Error during OTP verification for user eyalwork0@gmail.com: 'QuerySet' object has no attribute 'user'
-INFO 2024-10-19 14:45:01,861 views 89583 6164934656 Received request to verify OTP.
-DEBUG 2024-10-19 14:45:01,864 views 89583 6164934656 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:45:01,870 views 89583 6164934656 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 14:45:01,872 utils 89583 6164934656 Retrieved OTP entry: OTP for  for user: 
-WARNING 2024-10-19 14:45:01,875 utils 89583 6164934656 Invalid OTP code provided for user: . Attempt 2/5
-WARNING 2024-10-19 14:45:01,875 views 89583 6164934656 OTP verification failed for user: eyalwork0@gmail.com. Reason: Invalid OTP.
-INFO 2024-10-19 14:53:16,151 views 89772 6189903872 Received request to verify OTP.
-DEBUG 2024-10-19 14:53:16,154 views 89772 6189903872 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:53:16,156 views 89772 6189903872 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 14:53:16,158 utils 89772 6189903872 Retrieved OTP entry: OTP for  for user: 
-INFO 2024-10-19 14:53:16,158 utils 89772 6189903872 OTP expired for user: 
-WARNING 2024-10-19 14:53:16,158 views 89772 6189903872 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 14:58:50,009 views 89930 6128431104 Received request to verify OTP.
-DEBUG 2024-10-19 14:58:50,013 views 89930 6128431104 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:58:50,017 views 89930 6128431104 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 14:58:50,019 utils 89930 6128431104 Retrieved OTP entry: OTP for Unknown Email for user: 
-INFO 2024-10-19 14:58:50,019 utils 89930 6128431104 OTP expired for user: 
-WARNING 2024-10-19 14:58:50,019 views 89930 6128431104 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 14:59:20,348 views 89947 6198259712 Received request to verify OTP.
-DEBUG 2024-10-19 14:59:20,351 views 89947 6198259712 Validated data - Email: eyalwork0@gmail.com, OTP Code: 728316
-INFO 2024-10-19 14:59:20,355 views 89947 6198259712 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 14:59:20,357 utils 89947 6198259712 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 14:59:20,357 utils 89947 6198259712 OTP expired for user: 
-WARNING 2024-10-19 14:59:20,358 views 89947 6198259712 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:00:10,619 views 89947 6198259712 Received request to send OTP email.
-DEBUG 2024-10-19 15:00:10,620 views 89947 6198259712 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:00:10,623 views 89947 6198259712 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 15:00:10,630 utils 89947 6198259712 OTP entry saved for user: 
-INFO 2024-10-19 15:00:16,571 utils 89947 6198259712 Sent OTP to .
-INFO 2024-10-19 15:00:16,578 views 89947 6198259712 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 15:00:34,328 views 89947 6198259712 Received request to verify OTP.
-DEBUG 2024-10-19 15:00:34,329 views 89947 6198259712 Validated data - Email: eyalwork0@gmail.com, OTP Code: 375329
-INFO 2024-10-19 15:00:34,332 views 89947 6198259712 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:00:34,333 utils 89947 6198259712 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-WARNING 2024-10-19 15:00:34,336 utils 89947 6198259712 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 15:00:34,336 views 89947 6198259712 OTP verification failed for user: eyalwork0@gmail.com. Reason: Invalid OTP.
-INFO 2024-10-19 15:07:28,688 views 89947 6198259712 Received request to send OTP email.
-DEBUG 2024-10-19 15:07:28,689 views 89947 6198259712 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:07:28,692 views 89947 6198259712 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 15:07:28,701 utils 89947 6198259712 OTP entry saved for user: 
-INFO 2024-10-19 15:07:31,972 utils 89947 6198259712 Sent OTP to .
-INFO 2024-10-19 15:07:31,978 views 89947 6198259712 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 15:07:45,181 views 89947 6198259712 Received request to verify OTP.
-DEBUG 2024-10-19 15:07:45,182 views 89947 6198259712 Validated data - Email: eyalwork0@gmail.com, OTP Code: 143666
-INFO 2024-10-19 15:07:45,185 views 89947 6198259712 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:07:45,187 utils 89947 6198259712 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-WARNING 2024-10-19 15:07:45,189 utils 89947 6198259712 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 15:07:45,189 views 89947 6198259712 OTP verification failed for user: eyalwork0@gmail.com. Reason: Invalid OTP.
-INFO 2024-10-19 15:09:36,429 views 90063 6200668160 Received request to verify OTP.
-DEBUG 2024-10-19 15:09:36,432 views 90063 6200668160 Validated data - Email: eyalwork0@gmail.com, OTP Code: 143666
-INFO 2024-10-19 15:09:36,435 views 90063 6200668160 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:09:36,437 utils 90063 6200668160 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 15:09:36,438 utils 90063 6200668160 OTP expired for user: 
-WARNING 2024-10-19 15:09:36,438 views 90063 6200668160 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:09:40,424 views 90063 6200668160 Received request to send OTP email.
-DEBUG 2024-10-19 15:09:40,424 views 90063 6200668160 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:09:40,426 views 90063 6200668160 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 15:09:40,436 utils 90063 6200668160 OTP entry saved for user: 
-INFO 2024-10-19 15:09:48,934 utils 90063 6200668160 Sent OTP to .
-INFO 2024-10-19 15:09:48,940 views 90063 6200668160 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 15:09:59,214 views 90063 6200668160 Received request to verify OTP.
-DEBUG 2024-10-19 15:09:59,214 views 90063 6200668160 Validated data - Email: eyalwork0@gmail.com, OTP Code: 587571
-INFO 2024-10-19 15:09:59,217 views 90063 6200668160 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:09:59,218 utils 90063 6200668160 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 15:09:59,218 utils 90063 6200668160 OTP expired for user: 
-WARNING 2024-10-19 15:09:59,218 views 90063 6200668160 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:11:55,627 views 90063 6200668160 Received request to verify OTP.
-DEBUG 2024-10-19 15:11:55,628 views 90063 6200668160 Validated data - Email: eyalwork0@gmail.com, OTP Code: 587571
-INFO 2024-10-19 15:11:55,630 views 90063 6200668160 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:11:55,633 utils 90063 6200668160 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 15:11:55,633 utils 90063 6200668160 OTP expired for user: 
-WARNING 2024-10-19 15:11:55,633 views 90063 6200668160 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:17:14,113 views 90594 6157824000 Received request to send OTP email.
-DEBUG 2024-10-19 15:17:14,117 views 90594 6157824000 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:17:14,126 views 90594 6157824000 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 15:17:14,134 utils 90594 6157824000 OTP entry saved for user: 
-INFO 2024-10-19 15:17:16,984 utils 90594 6157824000 Sent OTP to .
-INFO 2024-10-19 15:17:16,990 views 90594 6157824000 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 15:17:57,327 views 90594 6157824000 Received request to verify OTP.
-DEBUG 2024-10-19 15:17:57,328 views 90594 6157824000 Validated data - Email: eyalwork0@gmail.com, OTP Code: 663259
-INFO 2024-10-19 15:17:57,333 views 90594 6157824000 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:17:57,336 utils 90594 6157824000 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 15:17:57,336 utils 90594 6157824000 OTP expired for user: 
-WARNING 2024-10-19 15:17:57,336 views 90594 6157824000 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:18:00,971 views 90594 6157824000 Received request to verify OTP.
-DEBUG 2024-10-19 15:18:00,971 views 90594 6157824000 Validated data - Email: eyalwork0@gmail.com, OTP Code: 663259
-INFO 2024-10-19 15:18:00,973 views 90594 6157824000 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 15:18:00,975 utils 90594 6157824000 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 15:18:00,975 utils 90594 6157824000 OTP expired for user: 
-WARNING 2024-10-19 15:18:00,975 views 90594 6157824000 OTP verification failed for user: eyalwork0@gmail.com. Reason: OTP has expired.
-INFO 2024-10-19 15:22:16,595 views 90632 6156070912 Received request to send OTP email.
-DEBUG 2024-10-19 15:22:16,600 views 90632 6156070912 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:22:16,606 views 90632 6156070912 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 15:22:16,608 views 90632 6156070912 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 15:22:26,369 views 90632 6156070912 Received request to send OTP email.
-DEBUG 2024-10-19 15:22:26,370 views 90632 6156070912 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 15:22:26,373 views 90632 6156070912 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 15:22:26,383 utils 90632 6156070912 OTP entry saved for user: 
-INFO 2024-10-19 15:22:28,621 utils 90632 6156070912 Sent OTP to .
-INFO 2024-10-19 15:22:28,625 views 90632 6156070912 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 15:22:40,300 views 90632 6156070912 Received request to verify OTP.
-DEBUG 2024-10-19 15:22:40,301 views 90632 6156070912 Validated data - Email: eyal@talent-bridge.org, OTP Code: 654025
-INFO 2024-10-19 15:22:40,303 views 90632 6156070912 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:22:40,305 utils 90632 6156070912 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-WARNING 2024-10-19 15:22:40,307 utils 90632 6156070912 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 15:22:40,307 views 90632 6156070912 OTP verification failed for user: eyal@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 15:30:54,159 views 90779 6190673920 Received request to send OTP email.
-DEBUG 2024-10-19 15:30:54,163 views 90779 6190673920 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 15:30:54,168 views 90779 6190673920 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 15:30:54,178 utils 90779 6190673920 OTP entry saved for user: 
-INFO 2024-10-19 15:30:56,590 utils 90779 6190673920 Sent OTP to .
-INFO 2024-10-19 15:30:56,596 views 90779 6190673920 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 15:31:27,058 views 90779 6190673920 Received request to verify OTP.
-DEBUG 2024-10-19 15:31:27,059 views 90779 6190673920 Validated data - Email: eyal@talent-bridge.org, OTP Code: 663259
-INFO 2024-10-19 15:31:27,063 views 90779 6190673920 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:31:27,067 utils 90779 6190673920 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-WARNING 2024-10-19 15:31:27,070 utils 90779 6190673920 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 15:31:27,071 views 90779 6190673920 OTP verification failed for user: eyal@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 15:37:23,914 views 90855 6130937856 Received request to send OTP email.
-DEBUG 2024-10-19 15:37:23,918 views 90855 6130937856 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 15:37:23,923 views 90855 6130937856 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 15:37:23,933 utils 90855 6130937856 OTP entry saved for user: 
-INFO 2024-10-19 15:37:26,887 utils 90855 6130937856 Sent OTP to .
-INFO 2024-10-19 15:37:26,890 views 90855 6130937856 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 15:37:48,110 views 90855 6130937856 Received request to verify OTP.
-DEBUG 2024-10-19 15:37:48,111 views 90855 6130937856 Validated data - Email: eyal@talent-bridge.org, OTP Code: 726242
-INFO 2024-10-19 15:37:48,113 views 90855 6130937856 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:37:48,114 utils 90855 6130937856 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-WARNING 2024-10-19 15:37:48,117 utils 90855 6130937856 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 15:37:48,117 views 90855 6130937856 OTP verification failed for user: eyal@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 15:39:47,013 views 90916 6193016832 Received request to verify OTP.
-DEBUG 2024-10-19 15:39:47,017 views 90916 6193016832 Validated data - Email: eyal@talent-bridge.org, OTP Code: 726242
-INFO 2024-10-19 15:39:47,022 views 90916 6193016832 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:39:47,026 utils 90916 6193016832 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-WARNING 2024-10-19 15:39:47,028 utils 90916 6193016832 Invalid OTP code provided for user: . Attempt 2/5
-WARNING 2024-10-19 15:39:47,028 views 90916 6193016832 OTP verification failed for user: eyal@talent-bridge.org. Reason: Invalid OTP.
-INFO 2024-10-19 15:52:11,511 views 91046 6193180672 Received request to send OTP email.
-DEBUG 2024-10-19 15:52:11,515 views 91046 6193180672 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 15:52:11,519 views 91046 6193180672 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 15:52:11,529 utils 91046 6193180672 OTP entry saved for user: 
-INFO 2024-10-19 15:52:14,936 utils 91046 6193180672 Sent OTP to .
-INFO 2024-10-19 15:52:14,942 views 91046 6193180672 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 15:52:28,212 views 91046 6193180672 Received request to verify OTP.
-DEBUG 2024-10-19 15:52:28,213 views 91046 6193180672 Validated data - Email: eyal@talent-bridge.org, OTP Code: 829444
-INFO 2024-10-19 15:52:28,217 views 91046 6193180672 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:52:28,221 utils 91046 6193180672 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 15:52:28,223 utils 91046 6193180672 OTP verified successfully for user: 
-INFO 2024-10-19 15:52:28,224 views 91046 6193180672 OTP verified successfully for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 15:52:28,224 views 91046 6193180672 Generated JWT tokens for user: eyal@talent-bridge.org
-INFO 2024-10-19 15:59:59,943 views 91046 6193180672 Received request to send OTP email.
-DEBUG 2024-10-19 15:59:59,944 views 91046 6193180672 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 15:59:59,947 views 91046 6193180672 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 15:59:59,957 utils 91046 6193180672 OTP entry saved for user: 
-INFO 2024-10-19 16:00:03,644 utils 91046 6193180672 Sent OTP to .
-INFO 2024-10-19 16:00:03,649 views 91046 6193180672 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 16:03:35,431 views 91046 6193180672 Received request to send OTP email.
-DEBUG 2024-10-19 16:03:35,432 views 91046 6193180672 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:03:35,438 views 91046 6193180672 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 16:03:35,450 utils 91046 6193180672 OTP entry saved for user: 
-INFO 2024-10-19 16:03:38,582 utils 91046 6193180672 Sent OTP to .
-INFO 2024-10-19 16:03:38,583 views 91046 6193180672 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 16:06:11,699 views 91046 6193180672 Received request to send OTP email.
-DEBUG 2024-10-19 16:06:11,701 views 91046 6193180672 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:06:11,706 views 91046 6193180672 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 16:06:11,708 views 91046 6193180672 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 16:06:20,673 views 91046 6193180672 Received request to send OTP email.
-DEBUG 2024-10-19 16:06:20,673 views 91046 6193180672 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 16:06:20,675 views 91046 6193180672 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 16:06:20,681 utils 91046 6193180672 OTP entry saved for user: 
-INFO 2024-10-19 16:06:23,145 utils 91046 6193180672 Sent OTP to .
-INFO 2024-10-19 16:06:23,151 views 91046 6193180672 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 16:06:42,122 views 91046 6193180672 Received request to verify OTP.
-DEBUG 2024-10-19 16:06:42,123 views 91046 6193180672 Validated data - Email: eyal@talent-bridge.org, OTP Code: 571052
-INFO 2024-10-19 16:06:42,127 views 91046 6193180672 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 16:06:42,130 utils 91046 6193180672 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 16:06:42,132 utils 91046 6193180672 OTP verified successfully for user: 
-INFO 2024-10-19 16:06:42,133 views 91046 6193180672 OTP verified successfully for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 16:06:42,133 views 91046 6193180672 Generated JWT tokens for user: eyal@talent-bridge.org
-INFO 2024-10-19 16:16:17,294 views 91477 6193311744 Received request to verify OTP.
-DEBUG 2024-10-19 16:16:17,299 views 91477 6193311744 Validated data - Email: eyal@talent-bridge.org, OTP Code: 571033
-INFO 2024-10-19 16:16:17,304 views 91477 6193311744 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 16:16:17,306 utils 91477 6193311744 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 16:16:17,307 utils 91477 6193311744 OTP expired for user: 
-WARNING 2024-10-19 16:16:17,307 views 91477 6193311744 OTP verification failed for user: eyal@talent-bridge.org. Reason: OTP has expired.
-INFO 2024-10-19 16:33:15,317 views 91477 6193311744 Received request to send OTP email.
-DEBUG 2024-10-19 16:33:15,319 views 91477 6193311744 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:33:15,327 views 91477 6193311744 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 16:33:15,340 utils 91477 6193311744 OTP entry saved for user: 
-INFO 2024-10-19 16:33:17,711 utils 91477 6193311744 Sent OTP to .
-INFO 2024-10-19 16:33:17,717 views 91477 6193311744 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 16:33:28,550 views 91477 6193311744 Received request to verify OTP.
-DEBUG 2024-10-19 16:33:28,551 views 91477 6193311744 Validated data - Email: eyalwork0@gmail.com, OTP Code: 915054
-INFO 2024-10-19 16:33:28,553 views 91477 6193311744 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:33:28,555 utils 91477 6193311744 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 16:33:28,557 utils 91477 6193311744 OTP verified successfully for user: 
-INFO 2024-10-19 16:33:28,557 views 91477 6193311744 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:33:28,557 views 91477 6193311744 Generated JWT tokens for user: eyalwork0@gmail.com
-INFO 2024-10-19 16:35:25,304 views 91477 6193311744 Received request to send OTP email.
-DEBUG 2024-10-19 16:35:25,305 views 91477 6193311744 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:35:25,311 views 91477 6193311744 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 16:35:25,319 utils 91477 6193311744 OTP entry saved for user: 
-INFO 2024-10-19 16:35:28,671 utils 91477 6193311744 Sent OTP to .
-INFO 2024-10-19 16:35:28,676 views 91477 6193311744 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 16:35:41,254 views 91477 6193311744 Received request to verify OTP.
-DEBUG 2024-10-19 16:35:41,256 views 91477 6193311744 Validated data - Email: eyalwork0@gmail.com, OTP Code: 866597
-INFO 2024-10-19 16:35:41,259 views 91477 6193311744 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:35:41,262 utils 91477 6193311744 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 16:35:41,265 utils 91477 6193311744 OTP verified successfully for user: 
-INFO 2024-10-19 16:35:41,265 views 91477 6193311744 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:35:41,266 views 91477 6193311744 Generated JWT tokens for user: eyalwork0@gmail.com
-INFO 2024-10-19 16:43:50,644 views 91477 6193311744 Received request to send OTP email.
-DEBUG 2024-10-19 16:43:50,645 views 91477 6193311744 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:43:50,649 views 91477 6193311744 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 16:43:50,655 utils 91477 6193311744 OTP entry saved for user: 
-INFO 2024-10-19 16:43:53,927 utils 91477 6193311744 Sent OTP to .
-INFO 2024-10-19 16:43:53,933 views 91477 6193311744 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 16:44:06,757 views 91477 6193311744 Received request to verify OTP.
-DEBUG 2024-10-19 16:44:06,758 views 91477 6193311744 Validated data - Email: eyalwork0@gmail.com, OTP Code: 976345
-INFO 2024-10-19 16:44:06,760 views 91477 6193311744 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:44:06,764 utils 91477 6193311744 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-WARNING 2024-10-19 16:44:06,767 utils 91477 6193311744 Invalid OTP code provided for user: . Attempt 1/5
-WARNING 2024-10-19 16:44:06,767 views 91477 6193311744 OTP verification failed for user: eyalwork0@gmail.com. Reason: Invalid OTP.
-INFO 2024-10-19 16:44:26,589 views 91477 6193311744 Received request to verify OTP.
-DEBUG 2024-10-19 16:44:26,590 views 91477 6193311744 Validated data - Email: eyalwork0@gmail.com, OTP Code: 966355
-INFO 2024-10-19 16:44:26,593 views 91477 6193311744 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:44:26,595 utils 91477 6193311744 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 16:44:26,598 utils 91477 6193311744 OTP verified successfully for user: 
-INFO 2024-10-19 16:44:26,598 views 91477 6193311744 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-19 16:44:26,598 views 91477 6193311744 Generated JWT tokens for user: eyalwork0@gmail.com
-INFO 2024-10-19 16:45:51,044 views 92738 6127579136 Received request to send OTP email.
-DEBUG 2024-10-19 16:45:51,046 views 92738 6127579136 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 16:45:51,048 views 92738 6127579136 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 16:45:51,049 views 92738 6127579136 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 16:46:00,876 views 92738 6127579136 Received request to send OTP email.
-DEBUG 2024-10-19 16:46:00,878 views 92738 6127579136 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 16:46:00,883 views 92738 6127579136 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 16:46:00,896 utils 92738 6127579136 OTP entry saved for user: 
-INFO 2024-10-19 16:46:03,225 utils 92738 6127579136 Sent OTP to .
-INFO 2024-10-19 16:46:03,228 views 92738 6127579136 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 16:46:15,826 views 92738 6127579136 Received request to verify OTP.
-DEBUG 2024-10-19 16:46:15,828 views 92738 6127579136 Validated data - Email: eyal@talent-bridge.org, OTP Code: 349362
-INFO 2024-10-19 16:46:15,831 views 92738 6127579136 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 16:46:15,833 utils 92738 6127579136 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 16:46:15,836 utils 92738 6127579136 OTP verified successfully for user: 
-INFO 2024-10-19 16:46:15,836 views 92738 6127579136 OTP verified successfully for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 16:46:15,836 views 92738 6127579136 Generated JWT tokens for user: eyal@talent-bridge.org
-INFO 2024-10-19 17:00:03,786 views 93062 6135050240 Received request to send OTP email.
-DEBUG 2024-10-19 17:00:03,789 views 93062 6135050240 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 17:00:03,795 views 93062 6135050240 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 17:00:03,804 utils 93062 6135050240 OTP entry saved for user: 
-INFO 2024-10-19 17:00:11,510 utils 93062 6135050240 Sent OTP to .
-INFO 2024-10-19 17:00:11,516 views 93062 6135050240 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 17:01:38,211 views 93062 6151876608 Received request to verify OTP.
-INFO 2024-10-19 17:01:38,218 views 93062 6151876608 Processing OTP verification for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 17:01:38,221 utils 93062 6151876608 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 17:01:38,223 utils 93062 6151876608 OTP verified successfully for user: 
-INFO 2024-10-19 17:01:38,223 views 93062 6151876608 OTP verified successfully for user: eyal@talent-bridge.org
-INFO 2024-10-19 17:04:02,636 views 93062 6168702976 Received request to send OTP email.
-DEBUG 2024-10-19 17:04:02,638 views 93062 6168702976 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 17:04:02,642 views 93062 6168702976 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 17:04:02,650 utils 93062 6168702976 OTP entry saved for user: 
-INFO 2024-10-19 17:04:04,967 utils 93062 6168702976 Sent OTP to .
-INFO 2024-10-19 17:04:04,970 views 93062 6168702976 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 17:04:19,830 views 93062 6168702976 Received request to verify OTP.
-INFO 2024-10-19 17:04:19,834 views 93062 6168702976 Processing OTP verification for user: eyalwork0@gmail.com
-DEBUG 2024-10-19 17:04:19,836 utils 93062 6168702976 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 17:04:19,838 utils 93062 6168702976 OTP verified successfully for user: 
-INFO 2024-10-19 17:04:19,839 views 93062 6168702976 OTP verified successfully for user: eyalwork0@gmail.com
-INFO 2024-10-19 17:05:41,876 views 93336 6156185600 Received request to send OTP email.
-DEBUG 2024-10-19 17:05:41,881 views 93336 6156185600 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 17:05:41,886 views 93336 6156185600 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-19 17:05:41,896 utils 93336 6156185600 OTP entry saved for user: 
-INFO 2024-10-19 17:05:44,979 utils 93336 6156185600 Sent OTP to .
-INFO 2024-10-19 17:05:44,985 views 93336 6156185600 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-19 17:06:04,152 views 93336 6156185600 Received request to verify OTP.
-DEBUG 2024-10-19 17:06:04,153 views 93336 6156185600 Validated data - Email: eyalwork0@gmail.com, OTP Code: 376394
-INFO 2024-10-19 17:06:04,157 views 93336 6156185600 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-19 17:06:04,161 utils 93336 6156185600 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
-INFO 2024-10-19 17:06:04,163 utils 93336 6156185600 OTP verified successfully for user: 
-INFO 2024-10-19 17:06:04,163 views 93336 6156185600 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-19 17:06:04,164 views 93336 6156185600 Generated JWT tokens for user: eyalwork0@gmail.com
-INFO 2024-10-19 17:06:57,362 views 93336 6156185600 Received request to send OTP email.
-DEBUG 2024-10-19 17:06:57,365 views 93336 6156185600 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 17:06:57,372 views 93336 6156185600 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 17:06:57,375 views 93336 6156185600 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 17:07:01,457 views 93336 6156185600 Received request to send OTP email.
-DEBUG 2024-10-19 17:07:01,458 views 93336 6156185600 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 17:07:01,461 views 93336 6156185600 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 17:07:01,474 utils 93336 6156185600 OTP entry saved for user: 
-INFO 2024-10-19 17:07:04,440 utils 93336 6156185600 Sent OTP to .
-INFO 2024-10-19 17:07:04,445 views 93336 6156185600 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 17:07:24,334 views 93336 6156185600 Received request to verify OTP.
-DEBUG 2024-10-19 17:07:24,335 views 93336 6156185600 Validated data - Email: eyal@talent-bridge.org, OTP Code: 466777
-INFO 2024-10-19 17:07:24,338 views 93336 6156185600 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 17:07:24,340 utils 93336 6156185600 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 17:07:24,343 utils 93336 6156185600 OTP verified successfully for user: 
-INFO 2024-10-19 17:07:24,343 views 93336 6156185600 OTP verified successfully for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 17:07:24,343 views 93336 6156185600 Generated JWT tokens for user: eyal@talent-bridge.org
-INFO 2024-10-19 17:08:14,225 views 93336 6156185600 Received request to send OTP email.
-DEBUG 2024-10-19 17:08:14,226 views 93336 6156185600 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 17:08:14,230 views 93336 6156185600 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 17:08:14,235 utils 93336 6156185600 OTP entry saved for user: 
-INFO 2024-10-19 17:08:17,261 utils 93336 6156185600 Sent OTP to .
-INFO 2024-10-19 17:08:17,263 views 93336 6156185600 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 17:08:31,718 views 93336 6156185600 Received request to verify OTP.
-DEBUG 2024-10-19 17:08:31,721 views 93336 6156185600 Validated data - Email: eyal@talent-bridge.org, OTP Code: 635530
-INFO 2024-10-19 17:08:31,724 views 93336 6156185600 Found user for OTP verification: eyal@talent-bridge.org
-DEBUG 2024-10-19 17:08:31,727 utils 93336 6156185600 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
-INFO 2024-10-19 17:08:31,729 utils 93336 6156185600 OTP verified successfully for user: 
-INFO 2024-10-19 17:08:31,729 views 93336 6156185600 OTP verified successfully for user: eyal@talent-bridge.org
-DEBUG 2024-10-19 17:08:31,729 views 93336 6156185600 Generated JWT tokens for user: eyal@talent-bridge.org
-INFO 2024-10-19 17:31:12,023 views 94437 6128136192 Received request to send OTP email.
-DEBUG 2024-10-19 17:31:12,026 views 94437 6128136192 Validated email: eyalwork0@gmail.com
-INFO 2024-10-19 17:31:12,035 views 94437 6128136192 Found existing user for email: eyalwork0@gmail.com
-WARNING 2024-10-19 17:31:12,037 views 94437 6128136192 OTP request limit exceeded for user: eyalwork0@gmail.com
-INFO 2024-10-19 17:31:19,379 views 94437 6128136192 Received request to send OTP email.
-DEBUG 2024-10-19 17:31:19,381 views 94437 6128136192 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 17:31:19,384 views 94437 6128136192 Found existing user for email: eyal@talent-bridge.org
-INFO 2024-10-19 17:31:19,393 utils 94437 6128136192 OTP entry saved for user: 
-INFO 2024-10-19 17:31:49,654 utils 94437 6128136192 Sent OTP to .
-INFO 2024-10-19 17:31:49,658 views 94437 6128136192 OTP generated and sent to email: eyal@talent-bridge.org
-INFO 2024-10-19 17:32:53,621 views 94506 6125563904 Received request to send OTP email.
-DEBUG 2024-10-19 17:32:53,625 views 94506 6125563904 Validated email: eyal@talent-bridge.org
-INFO 2024-10-19 17:32:53,634 views 94506 6125563904 Found existing user for email: eyal@talent-bridge.org
-WARNING 2024-10-19 17:32:53,637 views 94506 6125563904 OTP request limit exceeded for user: eyal@talent-bridge.org
-INFO 2024-10-19 17:33:00,719 views 94506 6125563904 Received request to send OTP email.
-DEBUG 2024-10-19 17:33:00,720 views 94506 6125563904 Validated email: support@talent-bridge.org
-INFO 2024-10-19 17:33:00,723 views 94506 6125563904 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 17:33:00,734 utils 94506 6125563904 OTP entry saved for user: 
-INFO 2024-10-19 17:33:04,399 utils 94506 6125563904 Sent OTP to .
-INFO 2024-10-19 17:33:04,404 views 94506 6125563904 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 17:33:23,123 views 94536 6192230400 Received request to send OTP email.
-DEBUG 2024-10-19 17:33:23,127 views 94536 6192230400 Validated email: support@talent-bridge.org
-INFO 2024-10-19 17:33:23,135 views 94536 6192230400 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 17:33:23,142 utils 94536 6192230400 OTP entry saved for user: 
-INFO 2024-10-19 17:33:28,063 utils 94536 6192230400 Sent OTP to .
-INFO 2024-10-19 17:33:28,068 views 94536 6192230400 OTP generated and sent to email: support@talent-bridge.org
-INFO 2024-10-19 17:34:46,190 views 94568 6133805056 Received request to send OTP email.
-DEBUG 2024-10-19 17:34:46,194 views 94568 6133805056 Validated email: support@talent-bridge.org
-INFO 2024-10-19 17:34:46,204 views 94568 6133805056 Found existing user for email: support@talent-bridge.org
-INFO 2024-10-19 17:34:46,214 utils 94568 6133805056 OTP entry saved for user: 
-INFO 2024-10-19 17:34:49,071 utils 94568 6133805056 Sent OTP to .
-INFO 2024-10-19 17:34:49,077 views 94568 6133805056 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 08:53:11,284 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 08:53:11,288 views 97449 6160199680 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 08:53:11,297 views 97449 6160199680 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 08:53:11,308 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 08:53:18,432 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 08:53:18,438 views 97449 6160199680 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 08:53:34,742 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 08:53:34,743 views 97449 6160199680 Validated data - Email: eyalwork0@gmail.com, OTP Code: 755592
+INFO 2024-10-20 08:53:34,746 views 97449 6160199680 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 08:53:34,748 utils 97449 6160199680 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
+INFO 2024-10-20 08:53:34,752 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 08:53:34,752 views 97449 6160199680 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 08:53:34,752 views 97449 6160199680 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 08:56:09,281 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 08:56:09,282 views 97449 6160199680 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 08:56:09,286 views 97449 6160199680 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 08:56:09,296 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 08:56:12,397 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 08:56:12,403 views 97449 6160199680 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 08:56:36,987 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 08:56:36,989 views 97449 6160199680 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 08:56:36,992 views 97449 6160199680 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 08:56:37,006 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 08:56:40,041 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 08:56:40,044 views 97449 6160199680 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 08:56:58,088 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 08:56:58,091 views 97449 6160199680 Validated data - Email: eyal@talent-bridge.org, OTP Code: 193467
+INFO 2024-10-20 08:56:58,094 views 97449 6160199680 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 08:56:58,096 utils 97449 6160199680 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
+INFO 2024-10-20 08:56:58,099 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 08:56:58,099 views 97449 6160199680 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 08:56:58,099 views 97449 6160199680 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 08:58:05,440 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 08:58:05,441 views 97449 6160199680 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 08:58:05,445 views 97449 6160199680 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 08:58:05,466 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 08:58:08,285 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 08:58:08,289 views 97449 6160199680 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 08:58:33,211 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 08:58:33,214 views 97449 6160199680 Validated data - Email: eyal@talent-bridge.org, OTP Code: 920495
+INFO 2024-10-20 08:58:33,218 views 97449 6160199680 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 08:58:33,222 utils 97449 6160199680 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
+INFO 2024-10-20 08:58:33,227 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 08:58:33,227 views 97449 6160199680 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 08:58:33,231 views 97449 6160199680 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:01:31,765 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 09:01:31,767 views 97449 6160199680 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 09:01:31,773 views 97449 6160199680 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 09:01:31,785 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 09:01:36,521 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 09:01:36,543 views 97449 6160199680 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 09:02:05,489 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 09:02:05,491 views 97449 6160199680 Validated data - Email: eyal@talent-bridge.org, OTP Code: 719286
+INFO 2024-10-20 09:02:05,496 views 97449 6160199680 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:02:05,498 utils 97449 6160199680 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: 
+INFO 2024-10-20 09:02:05,500 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 09:02:05,500 views 97449 6160199680 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:02:05,500 views 97449 6160199680 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:06:01,109 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 09:06:01,110 views 97449 6160199680 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:06:01,114 views 97449 6160199680 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 09:06:01,129 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 09:06:04,053 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 09:06:04,059 views 97449 6160199680 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 09:06:23,883 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 09:06:23,883 views 97449 6160199680 Validated data - Email: eyalwork0@gmail.com, OTP Code: 594841
+INFO 2024-10-20 09:06:23,886 views 97449 6160199680 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:06:23,888 utils 97449 6160199680 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
+INFO 2024-10-20 09:06:23,891 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 09:06:23,891 views 97449 6160199680 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:06:23,891 views 97449 6160199680 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:09:18,952 views 97449 6160199680 Received request to send OTP email.
+DEBUG 2024-10-20 09:09:18,953 views 97449 6160199680 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:09:18,956 views 97449 6160199680 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 09:09:18,966 utils 97449 6160199680 OTP entry saved for user: 
+INFO 2024-10-20 09:09:21,842 utils 97449 6160199680 Sent OTP to .
+INFO 2024-10-20 09:09:21,848 views 97449 6160199680 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 09:09:34,481 views 97449 6160199680 Received request to verify OTP.
+DEBUG 2024-10-20 09:09:34,482 views 97449 6160199680 Validated data - Email: eyalwork0@gmail.com, OTP Code: 735083
+INFO 2024-10-20 09:09:34,485 views 97449 6160199680 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:09:34,489 utils 97449 6160199680 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: 
+INFO 2024-10-20 09:09:34,492 utils 97449 6160199680 OTP verified successfully for user: 
+INFO 2024-10-20 09:09:34,492 views 97449 6160199680 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:09:34,492 views 97449 6160199680 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:15:10,338 views 98528 6163148800 Received request to send OTP email.
+DEBUG 2024-10-20 09:15:10,342 views 98528 6163148800 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:10,347 views 98528 6163148800 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:10,355 utils 98528 6163148800 OTP entry saved for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:13,695 utils 98528 6163148800 Sent OTP to eyal@talent-bridge.org.
+INFO 2024-10-20 09:15:13,699 views 98528 6163148800 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:32,475 views 98528 6163148800 Received request to verify OTP.
+DEBUG 2024-10-20 09:15:32,476 views 98528 6163148800 Validated data - Email: eyal@talent-bridge.org, OTP Code: 824355
+INFO 2024-10-20 09:15:32,479 views 98528 6163148800 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:15:32,483 utils 98528 6163148800 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:32,486 utils 98528 6163148800 OTP verified successfully for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:15:32,486 views 98528 6163148800 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:15:32,486 views 98528 6163148800 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:11,092 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:39:11,095 views 98670 6170734592 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:11,101 views 98670 6170734592 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:11,109 utils 98670 6170734592 OTP entry saved for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:14,327 utils 98670 6170734592 Sent OTP to eyal@talent-bridge.org.
+INFO 2024-10-20 09:39:14,332 views 98670 6170734592 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:23,155 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:39:23,156 views 98670 6170734592 Validated data - Email: eyal@talent-bridge.org, OTP Code: 763726
+INFO 2024-10-20 09:39:23,165 views 98670 6170734592 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:39:23,171 utils 98670 6170734592 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:23,173 utils 98670 6170734592 OTP verified successfully for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:39:23,173 views 98670 6170734592 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 09:39:23,173 views 98670 6170734592 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:43:28,428 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:43:28,429 views 98670 6170734592 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:28,434 views 98670 6170734592 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:28,447 utils 98670 6170734592 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:31,563 utils 98670 6170734592 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 09:43:31,569 views 98670 6170734592 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:48,945 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:43:48,947 views 98670 6170734592 Validated data - Email: eyalwork0@gmail.com, OTP Code: 997627
+INFO 2024-10-20 09:43:48,950 views 98670 6170734592 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:43:48,953 utils 98670 6170734592 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:48,956 utils 98670 6170734592 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:43:48,956 views 98670 6170734592 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:43:48,956 views 98670 6170734592 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:50:26,730 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:50:26,731 views 98670 6170734592 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 09:50:26,736 views 98670 6170734592 Found existing user for email: eyal@talent-bridge.org
+WARNING 2024-10-20 09:50:26,738 views 98670 6170734592 OTP request limit exceeded for user: eyal@talent-bridge.org
+INFO 2024-10-20 09:50:34,577 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:50:34,578 views 98670 6170734592 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:50:34,580 views 98670 6170734592 Found existing user for email: eyalwork0@gmail.com
+WARNING 2024-10-20 09:50:34,582 views 98670 6170734592 OTP request limit exceeded for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:50:40,720 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:50:40,721 views 98670 6170734592 Validated email: support@talent-bridge.org
+INFO 2024-10-20 09:50:40,724 views 98670 6170734592 Found existing user for email: support@talent-bridge.org
+INFO 2024-10-20 09:50:40,734 utils 98670 6170734592 OTP entry saved for user: support@talent-bridge.org
+INFO 2024-10-20 09:50:44,172 utils 98670 6170734592 Sent OTP to support@talent-bridge.org.
+INFO 2024-10-20 09:50:44,174 views 98670 6170734592 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 09:50:59,753 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:50:59,754 views 98670 6170734592 Validated data - Email: support@talent-bridge.org, OTP Code: 850301
+INFO 2024-10-20 09:50:59,756 views 98670 6170734592 Found user for OTP verification: support@talent-bridge.org
+DEBUG 2024-10-20 09:50:59,757 utils 98670 6170734592 Retrieved OTP entry: OTP for support@talent-bridge.org for user: support@talent-bridge.org
+INFO 2024-10-20 09:50:59,758 utils 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+INFO 2024-10-20 09:50:59,758 views 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+DEBUG 2024-10-20 09:50:59,758 views 98670 6170734592 Generated JWT tokens for user: support@talent-bridge.org
+INFO 2024-10-20 09:52:55,164 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:52:55,166 views 98670 6170734592 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:52:55,171 views 98670 6170734592 Found existing user for email: eyalwork0@gmail.com
+WARNING 2024-10-20 09:52:55,174 views 98670 6170734592 OTP request limit exceeded for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:53:00,391 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:53:00,392 views 98670 6170734592 Validated email: support@talent-bridge.org
+INFO 2024-10-20 09:53:00,395 views 98670 6170734592 Found existing user for email: support@talent-bridge.org
+INFO 2024-10-20 09:53:00,406 utils 98670 6170734592 OTP entry saved for user: support@talent-bridge.org
+INFO 2024-10-20 09:53:03,143 utils 98670 6170734592 Sent OTP to support@talent-bridge.org.
+INFO 2024-10-20 09:53:03,148 views 98670 6170734592 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 09:53:16,224 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:53:16,225 views 98670 6170734592 Validated data - Email: support@talent-bridge.org, OTP Code: 882631
+INFO 2024-10-20 09:53:16,227 views 98670 6170734592 Found user for OTP verification: support@talent-bridge.org
+DEBUG 2024-10-20 09:53:16,230 utils 98670 6170734592 Retrieved OTP entry: OTP for support@talent-bridge.org for user: support@talent-bridge.org
+INFO 2024-10-20 09:53:16,233 utils 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+INFO 2024-10-20 09:53:16,233 views 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+DEBUG 2024-10-20 09:53:16,234 views 98670 6170734592 Generated JWT tokens for user: support@talent-bridge.org
+INFO 2024-10-20 09:54:14,568 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:54:14,569 views 98670 6170734592 Validated email: support@talent-bridge.org
+INFO 2024-10-20 09:54:14,573 views 98670 6170734592 Found existing user for email: support@talent-bridge.org
+INFO 2024-10-20 09:54:14,584 utils 98670 6170734592 OTP entry saved for user: support@talent-bridge.org
+INFO 2024-10-20 09:54:17,784 utils 98670 6170734592 Sent OTP to support@talent-bridge.org.
+INFO 2024-10-20 09:54:17,786 views 98670 6170734592 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 09:54:29,199 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:54:29,199 views 98670 6170734592 Validated data - Email: support@talent-bridge.org, OTP Code: 459294
+INFO 2024-10-20 09:54:29,201 views 98670 6170734592 Found user for OTP verification: support@talent-bridge.org
+DEBUG 2024-10-20 09:54:29,205 utils 98670 6170734592 Retrieved OTP entry: OTP for support@talent-bridge.org for user: support@talent-bridge.org
+INFO 2024-10-20 09:54:29,208 utils 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+INFO 2024-10-20 09:54:29,208 views 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+DEBUG 2024-10-20 09:54:29,208 views 98670 6170734592 Generated JWT tokens for user: support@talent-bridge.org
+INFO 2024-10-20 09:56:13,468 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:56:13,469 views 98670 6170734592 Validated email: support@talent-bridge.org
+INFO 2024-10-20 09:56:13,474 views 98670 6170734592 Found existing user for email: support@talent-bridge.org
+INFO 2024-10-20 09:56:13,487 utils 98670 6170734592 OTP entry saved for user: support@talent-bridge.org
+INFO 2024-10-20 09:56:16,883 utils 98670 6170734592 Sent OTP to support@talent-bridge.org.
+INFO 2024-10-20 09:56:16,888 views 98670 6170734592 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 09:56:27,319 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:56:27,320 views 98670 6170734592 Validated data - Email: support@talent-bridge.org, OTP Code: 552093
+INFO 2024-10-20 09:56:27,322 views 98670 6170734592 Found user for OTP verification: support@talent-bridge.org
+DEBUG 2024-10-20 09:56:27,324 utils 98670 6170734592 Retrieved OTP entry: OTP for support@talent-bridge.org for user: support@talent-bridge.org
+INFO 2024-10-20 09:56:27,327 utils 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+INFO 2024-10-20 09:56:27,327 views 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+DEBUG 2024-10-20 09:56:27,327 views 98670 6170734592 Generated JWT tokens for user: support@talent-bridge.org
+INFO 2024-10-20 09:57:06,778 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:57:06,779 views 98670 6170734592 Validated email: support@talent-bridge.org
+INFO 2024-10-20 09:57:06,782 views 98670 6170734592 Found existing user for email: support@talent-bridge.org
+INFO 2024-10-20 09:57:06,794 utils 98670 6170734592 OTP entry saved for user: support@talent-bridge.org
+INFO 2024-10-20 09:57:09,620 utils 98670 6170734592 Sent OTP to support@talent-bridge.org.
+INFO 2024-10-20 09:57:09,624 views 98670 6170734592 OTP generated and sent to email: support@talent-bridge.org
+INFO 2024-10-20 09:57:20,585 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:57:20,587 views 98670 6170734592 Validated data - Email: support@talent-bridge.org, OTP Code: 193273
+INFO 2024-10-20 09:57:20,590 views 98670 6170734592 Found user for OTP verification: support@talent-bridge.org
+DEBUG 2024-10-20 09:57:20,593 utils 98670 6170734592 Retrieved OTP entry: OTP for support@talent-bridge.org for user: support@talent-bridge.org
+INFO 2024-10-20 09:57:20,596 utils 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+INFO 2024-10-20 09:57:20,596 views 98670 6170734592 OTP verified successfully for user: support@talent-bridge.org
+DEBUG 2024-10-20 09:57:20,596 views 98670 6170734592 Generated JWT tokens for user: support@talent-bridge.org
+INFO 2024-10-20 09:58:34,565 views 98670 6170734592 Received request to send OTP email.
+DEBUG 2024-10-20 09:58:34,566 views 98670 6170734592 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:34,571 views 98670 6170734592 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:34,583 utils 98670 6170734592 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:37,548 utils 98670 6170734592 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 09:58:37,553 views 98670 6170734592 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:50,873 views 98670 6170734592 Received request to verify OTP.
+DEBUG 2024-10-20 09:58:50,873 views 98670 6170734592 Validated data - Email: eyalwork0@gmail.com, OTP Code: 996606
+INFO 2024-10-20 09:58:50,876 views 98670 6170734592 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:58:50,878 utils 98670 6170734592 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:50,881 utils 98670 6170734592 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 09:58:50,881 views 98670 6170734592 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 09:58:50,881 views 98670 6170734592 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:20,591 views 136 6162149376 Received request to send OTP email.
+DEBUG 2024-10-20 10:08:20,594 views 136 6162149376 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:20,602 views 136 6162149376 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:20,610 utils 136 6162149376 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:23,571 utils 136 6162149376 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 10:08:23,576 views 136 6162149376 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:41,585 views 136 6162149376 Received request to verify OTP.
+DEBUG 2024-10-20 10:08:41,586 views 136 6162149376 Validated data - Email: eyalwork0@gmail.com, OTP Code: 677646
+INFO 2024-10-20 10:08:41,589 views 136 6162149376 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 10:08:41,593 utils 136 6162149376 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:41,595 utils 136 6162149376 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:08:41,595 views 136 6162149376 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 10:08:41,604 views 136 6162149376 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:13:09,881 views 395 6135918592 Received request to send OTP email.
+DEBUG 2024-10-20 10:13:09,884 views 395 6135918592 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:09,891 views 395 6135918592 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:09,903 utils 395 6135918592 OTP entry saved for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:13,759 utils 395 6135918592 Sent OTP to eyal@talent-bridge.org.
+INFO 2024-10-20 10:13:13,763 views 395 6135918592 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:32,500 views 395 6135918592 Received request to verify OTP.
+DEBUG 2024-10-20 10:13:32,501 views 395 6135918592 Validated data - Email: eyal@talent-bridge.org, OTP Code: 473379
+INFO 2024-10-20 10:13:32,506 views 395 6135918592 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:13:32,509 utils 395 6135918592 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:32,512 utils 395 6135918592 OTP verified successfully for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:13:32,512 views 395 6135918592 OTP verified successfully for user: eyal@talent-bridge.org
+ERROR 2024-10-20 10:13:32,523 views 395 6135918592 Error during OTP verification for user eyal@talent-bridge.org: no such table: token_blacklist_outstandingtoken
+INFO 2024-10-20 10:15:04,431 views 546 6161838080 Received request to verify OTP.
+DEBUG 2024-10-20 10:15:04,435 views 546 6161838080 Validated data - Email: eyal@talent-bridge.org, OTP Code: 473379
+INFO 2024-10-20 10:15:04,439 views 546 6161838080 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:15:04,441 utils 546 6161838080 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:04,441 utils 546 6161838080 OTP expired for user: eyal@talent-bridge.org
+WARNING 2024-10-20 10:15:04,441 views 546 6161838080 OTP verification failed for user: eyal@talent-bridge.org. Reason: OTP has expired.
+INFO 2024-10-20 10:15:08,546 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:15:08,547 views 546 6161838080 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:08,549 views 546 6161838080 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:08,561 utils 546 6161838080 OTP entry saved for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:12,312 utils 546 6161838080 Sent OTP to eyal@talent-bridge.org.
+INFO 2024-10-20 10:15:12,317 views 546 6161838080 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:25,257 views 546 6161838080 Received request to verify OTP.
+DEBUG 2024-10-20 10:15:25,258 views 546 6161838080 Validated data - Email: eyal@talent-bridge.org, OTP Code: 758048
+INFO 2024-10-20 10:15:25,260 views 546 6161838080 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:15:25,262 utils 546 6161838080 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:25,264 utils 546 6161838080 OTP verified successfully for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:15:25,264 views 546 6161838080 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:15:25,275 views 546 6161838080 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:17:33,292 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:17:33,293 views 546 6161838080 Validated email: support@talent-bridge.org
+INFO 2024-10-20 10:17:33,297 views 546 6161838080 Found existing user for email: support@talent-bridge.org
+WARNING 2024-10-20 10:17:33,301 views 546 6161838080 OTP request limit exceeded for user: support@talent-bridge.org
+INFO 2024-10-20 10:21:14,704 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:21:14,707 views 546 6161838080 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 10:21:14,715 views 546 6161838080 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 10:21:14,727 utils 546 6161838080 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 10:21:17,601 utils 546 6161838080 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 10:21:17,608 views 546 6161838080 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 10:21:46,561 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:21:46,561 views 546 6161838080 Validated email: support@talent-bridge.org
+INFO 2024-10-20 10:21:46,566 views 546 6161838080 Found existing user for email: support@talent-bridge.org
+WARNING 2024-10-20 10:21:46,567 views 546 6161838080 OTP request limit exceeded for user: support@talent-bridge.org
+INFO 2024-10-20 10:23:36,979 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:23:36,980 views 546 6161838080 Validated email: support@talent-bridge.org
+INFO 2024-10-20 10:23:36,985 views 546 6161838080 Found existing user for email: support@talent-bridge.org
+WARNING 2024-10-20 10:23:36,987 views 546 6161838080 OTP request limit exceeded for user: support@talent-bridge.org
+INFO 2024-10-20 10:26:36,173 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 10:26:36,174 views 546 6161838080 Validated email: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:36,184 views 546 6161838080 Found existing user for email: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:36,206 utils 546 6161838080 OTP entry saved for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:39,947 utils 546 6161838080 Sent OTP to eyal@talent-bridge.org.
+INFO 2024-10-20 10:26:39,952 views 546 6161838080 OTP generated and sent to email: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:52,020 views 546 6161838080 Received request to verify OTP.
+DEBUG 2024-10-20 10:26:52,022 views 546 6161838080 Validated data - Email: eyal@talent-bridge.org, OTP Code: 356840
+INFO 2024-10-20 10:26:52,026 views 546 6161838080 Found user for OTP verification: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:26:52,029 utils 546 6161838080 Retrieved OTP entry: OTP for eyal@talent-bridge.org for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:52,032 utils 546 6161838080 OTP verified successfully for user: eyal@talent-bridge.org
+INFO 2024-10-20 10:26:52,032 views 546 6161838080 OTP verified successfully for user: eyal@talent-bridge.org
+DEBUG 2024-10-20 10:26:52,036 views 546 6161838080 Generated JWT tokens for user: eyal@talent-bridge.org
+INFO 2024-10-20 15:01:22,711 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 15:01:22,720 views 546 6161838080 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:22,742 views 546 6161838080 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:22,750 utils 546 6161838080 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:25,650 utils 546 6161838080 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 15:01:25,655 views 546 6161838080 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:40,576 views 546 6161838080 Received request to verify OTP.
+DEBUG 2024-10-20 15:01:40,577 views 546 6161838080 Validated data - Email: eyalwork0@gmail.com, OTP Code: 145927
+INFO 2024-10-20 15:01:40,580 views 546 6161838080 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 15:01:40,583 utils 546 6161838080 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:40,585 utils 546 6161838080 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:01:40,585 views 546 6161838080 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 15:01:40,588 views 546 6161838080 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:11:53,369 views 546 6161838080 Received request to send OTP email.
+DEBUG 2024-10-20 15:11:53,370 views 546 6161838080 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 15:11:53,377 views 546 6161838080 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 15:11:53,386 utils 546 6161838080 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:11:56,129 utils 546 6161838080 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 15:11:56,134 views 546 6161838080 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 15:12:17,448 views 546 6161838080 Received request to verify OTP.
+DEBUG 2024-10-20 15:12:17,448 views 546 6161838080 Validated data - Email: eyalwork0@gmail.com, OTP Code: 159965
+INFO 2024-10-20 15:12:17,450 views 546 6161838080 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 15:12:17,452 utils 546 6161838080 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:12:17,455 utils 546 6161838080 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 15:12:17,455 views 546 6161838080 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 15:12:17,457 views 546 6161838080 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 16:15:48,691 views 2970 6128136192 Received request to send OTP email.
+DEBUG 2024-10-20 16:15:48,696 views 2970 6128136192 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 16:15:48,703 views 2970 6128136192 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 16:15:48,712 utils 2970 6128136192 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 16:15:51,164 utils 2970 6128136192 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 16:15:51,170 views 2970 6128136192 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 16:16:37,464 views 2970 6128136192 Received request to verify OTP.
+DEBUG 2024-10-20 16:16:37,467 views 2970 6128136192 Validated data - Email: eyalwork0@gmail.com, OTP Code: 640828
+INFO 2024-10-20 16:16:37,472 views 2970 6128136192 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 16:16:37,475 utils 2970 6128136192 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 16:16:37,478 utils 2970 6128136192 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 16:16:37,478 views 2970 6128136192 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 16:16:37,493 views 2970 6128136192 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:19,034 views 3562 6179516416 Received request to send OTP email.
+DEBUG 2024-10-20 17:05:19,040 views 3562 6179516416 Validated email: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:19,048 views 3562 6179516416 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:19,060 utils 3562 6179516416 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:21,644 utils 3562 6179516416 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-20 17:05:21,650 views 3562 6179516416 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:34,813 views 3562 6179516416 Received request to verify OTP.
+DEBUG 2024-10-20 17:05:34,815 views 3562 6179516416 Validated data - Email: eyalwork0@gmail.com, OTP Code: 161102
+INFO 2024-10-20 17:05:34,818 views 3562 6179516416 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-20 17:05:34,821 utils 3562 6179516416 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:34,824 utils 3562 6179516416 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-20 17:05:34,824 views 3562 6179516416 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-20 17:05:34,827 views 3562 6179516416 Generated JWT tokens for user: eyalwork0@gmail.com
