@@ -4,10 +4,8 @@ from datetime import timedelta
 from django.utils import timezone
 from .models import *
 from django.contrib.auth import get_user_model
-from rest_framework.response import Response
-from rest_framework import status
 from email.message import EmailMessage
-from chaTrip.settings import EMAIL_HOST_PASSWORD,EMAIL_HOST_USER 
+from chaTrip.settings import EMAIL_HOST_PASSWORD,EMAIL_HOST_USER
 
 logger = logging.getLogger('auth')
 
@@ -33,9 +31,9 @@ def generate_and_send_otp(user):
     otp_record.save()
     try:
         otp_record.save()
-        logger.info(f"OTP entry saved for user: {user.email}")
+        logger.info(f"OTP entry saved for user: {user.username}")
     except Exception as e:
-        logger.error(f"Failed to save OTP for user {user.email}: {e}")
+        logger.error(f"Failed to save OTP for user {user.username}: {e}")
         raise
     # Create a secure SSL context using certifi
     context = ssl.create_default_context(cafile=certifi.where())
@@ -44,7 +42,7 @@ def generate_and_send_otp(user):
         with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
             server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)  # Use actual credentials
             server.send_message(msg)
-        logger.info(f"Sent OTP to {user.email}.")
+        logger.info(f"Sent OTP to {user.username}.")
     except Exception as e:
         logger.error(f"Failed to send OTP email: {e}")
         raise
@@ -56,43 +54,42 @@ def verify_otp(user, otp_code):
     try:
         # Fetch the latest OTP for the user
         otp = Otp.objects.filter(user=user, is_used=False).latest('created_at')
-        print('value:', otp)
         
         # Check if the retrieved OTP is for the same user
         if otp.user != user:
-            logger.error(f"Retrieved OTP for a different user. Expected {user.email}, but got {otp.user.email}.")
+            logger.error(f"Retrieved OTP for a different user. Expected {user.username}, but got {otp.user.username}.")
             return False, "Invalid OTP entry."
 
-        logger.debug(f"Retrieved OTP entry: {otp} for user: {user.email}")
+        logger.debug(f"Retrieved OTP entry: {otp} for user: {user.username}")
         
         # Check if the OTP has expired
         if otp.is_expired():
-            logger.info(f"OTP expired for user: {user.email}")
+            logger.info(f"OTP expired for user: {user.username}")
             return False, "OTP has expired."
         
         # Check if the provided OTP code is correct
         if otp.check_code(otp_code):
-            print(otp.check_code(otp_code))
+            # print(otp.check_code(otp_code))
             otp.is_used = True
             otp.save()
-            logger.info(f"OTP verified successfully for user: {user.email}")
+            logger.info(f"OTP verified successfully for user: {user.username}")
             return True, "OTP verified successfully."
         else:
             otp.attempt_count += 1
             otp.save()
-            logger.warning(f"Invalid OTP code provided for user: {user.email}. Attempt {otp.attempt_count}/5")
+            logger.warning(f"Invalid OTP code provided for user: {user.username}. Attempt {otp.attempt_count}/5")
             
             # Optional: Handle exceeding max OTP attempts
             if otp.attempt_count >= 5:
                 otp.is_used = True
                 otp.save()
-                logger.warning(f"Maximum OTP attempts exceeded for user: {user.email}")
+                logger.warning(f"Maximum OTP attempts exceeded for user: {user.username}")
                 return False, "Maximum OTP attempts exceeded. Please request a new OTP."
             
             return False, "Invalid OTP."
     
     except Otp.DoesNotExist:
-        logger.warning(f"No OTP found for user: {user.email}")
+        logger.warning(f"No OTP found for user: {user.username}")
         return False, "No OTP found. Please request a new one."
     
 def can_request_otp(user):
@@ -103,3 +100,6 @@ def can_request_otp(user):
     time_threshold = timezone.now() - timedelta(hours=1)
     recent_otps = Otp.objects.filter(user=user, created_at__gte=time_threshold).count()
     return recent_otps < 5  # Allow up to 5 OTP requests per hour
+
+
+
