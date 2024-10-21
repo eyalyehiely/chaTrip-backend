@@ -7,7 +7,9 @@ from django.utils import timezone
 from datetime import timedelta
 
 class CustomUser(AbstractUser):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     username = models.EmailField(unique=True)
+    saving_places = models.JSONField(default=dict, blank=True)
 
     USERNAME_FIELD = 'username'
     REQUIRED_FIELDS = []  # Add other required fields here if necessary
