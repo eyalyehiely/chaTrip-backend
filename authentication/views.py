@@ -4,17 +4,20 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny,IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import EmailSerializer, OTPSerializer
+from .serializers import EmailSerializer, OTPSerializer,CustomUserSerializer
 from .utils import generate_and_send_otp, verify_otp, can_request_otp
 from django.contrib.auth import get_user_model
 from rest_framework_simplejwt.tokens import RefreshToken
 import logging,time,requests,math
 from django_ratelimit.decorators import ratelimit
 from chaTrip.settings import GOOGLE_PLACES_API_KEY
+from .models import CustomUser
 
 
 logger = logging.getLogger('auth') 
 place_logger = logging.getLogger('place')
+user_logger = logging.getLogger('user')
+
 User = get_user_model()
 
 
@@ -91,6 +94,7 @@ def verify_otp_email_view(request):
                 # Generate JWT tokens
                 refresh = RefreshToken.for_user(user)
                 refresh['username'] = user.username
+                refresh['user_id'] = str(user.id)
                 access_token = str(refresh.access_token)
                 logger.debug(f"Generated JWT tokens for user: {email}")
                 end_time = time.time()
@@ -193,7 +197,7 @@ def get_nearby_places(request):
                 'name': place.get('name'),
                 'kind_of_place': place.get('types', []),
                 'location': place_location,
-                'distance': f"{distance:.2f} km" if distance is not None else 'Unknown',  # Format distance
+                'distance': f"{distance:.2f} km" if distance is not None else 'Unknown',  
                 'rating': place.get('rating', 'No rating available')
                 }
                 results.append(place_info)
@@ -205,3 +209,43 @@ def get_nearby_places(request):
 
     # Return the data as JSON
     return Response({'places': results}, status=200)
+
+
+
+
+@api_view(['GET', 'PUT'])
+@permission_classes([IsAuthenticated])
+def user_details(request, user_id):
+    # Log the request method and username
+    user_logger.info(f"Received {request.method} request for user: {user_id}")
+
+    try:
+        # Try to find the user by id
+        user = CustomUser.objects.filter(id=user_id).first()
+        if not user:
+            user_logger.warning(f"User {user_id} not found")
+            return Response({'error': 'User not found'}, status=404)
+    except Exception as e:
+        user_logger.error(f"Exception while retrieving user: {e}")
+        return Response({'error': 'Server error'}, status=500)
+
+    if request.method == 'GET':
+        # Log attempting to retrieve user details
+        user_logger.info(f"Attempting to retrieve details for user {user_id}")
+        
+        serializer = CustomUserSerializer(user)  # Serialize user data
+        return Response(serializer.data, status=200)
+
+    elif request.method == 'PUT':
+        # Log attempting to update user details
+        user_logger.info(f"Attempting to update details for user {user_id}")
+
+        serializer = CustomUserSerializer(user, data=request.data, partial=True)  # Allow partial updates
+
+        if serializer.is_valid():
+            serializer.save()
+            user_logger.info(f"User {user_id} details updated successfully")
+            return Response({'message': 'User details updated successfully', 'data': serializer.data}, status=200)
+        else:
+            user_logger.warning(f"Validation errors while updating user {user_id}: {serializer.errors}")
+            return Response(serializer.errors, status=400)

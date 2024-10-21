@@ -13,5 +13,6 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('nearby-places/', get_nearby_places, name='get_nearby_places'),
+    path('user/<uuid:user_id>/', user_details, name='user_details'),
 
 ]
