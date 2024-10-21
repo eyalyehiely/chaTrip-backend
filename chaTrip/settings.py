@@ -214,6 +214,14 @@ LOGGING = {
             'when': 'midnight',
             'backupCount': 7,
         },
+        'user_file': {
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/user.log'),
+            'formatter': 'simpleRe',
+            'when': 'midnight',
+            'backupCount': 7,
+        },
     },
     'loggers': {
         'auth': {
@@ -224,6 +232,12 @@ LOGGING = {
 
         'place': {
             'handlers': ['place_file', 'console'],
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'propagate': True,
+        },
+
+        'user': {
+            'handlers': ['user_file', 'console'],
             'level': 'DEBUG' if DEBUG else 'INFO',
             'propagate': True,
         },
