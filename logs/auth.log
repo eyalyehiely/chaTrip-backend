@@ -68,3 +68,29 @@ Some popular attractions in Tokyo include the iconic Tokyo Tower, the historic S
 Tokyo is a city that never sleeps, with a vibrant nightlife scene, bustling markets, and countless entertainment options. It is also a
 INFO 2024-10-22 17:15:52,436 views 29666 6169063424 Conversation stored temporarily for user eyalwork0@gmail.com
 INFO 2024-10-22 17:16:52,622 views 29666 6169063424 Conversation saved to the database for user eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,319 views 33190 6125924352 Received request to send OTP email.
+DEBUG 2024-10-22 18:14:56,324 views 33190 6125924352 Validated email: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,332 views 33190 6125924352 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,355 utils 33190 6125924352 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:58,985 utils 33190 6125924352 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-22 18:14:58,990 views 33190 6125924352 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,464 views 33190 6125924352 Received request to verify OTP.
+DEBUG 2024-10-22 18:15:14,466 views 33190 6125924352 Validated data - Email: eyalwork0@gmail.com, OTP Code: 937292
+INFO 2024-10-22 18:15:14,469 views 33190 6125924352 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-22 18:15:14,472 utils 33190 6125924352 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,474 utils 33190 6125924352 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,474 views 33190 6125924352 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-22 18:15:14,486 views 33190 6125924352 Generated JWT tokens for user: eyalwork0@gmail.com
+ERROR 2024-10-22 18:19:26,786 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:22:28,068 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:23:35,684 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:27:09,424 views 33665 6188986368 Invalid request: missing required fields
+ERROR 2024-10-22 18:28:58,027 views 33665 6188986368 Invalid request: missing required fields
+INFO 2024-10-22 18:29:44,716 views 33665 6188986368 Email sent successfully from eyal@talent-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:29:44,717 views 33665 6188986368 Function execution time: 2.3198468685150146 seconds
+INFO 2024-10-22 18:31:19,172 views 33860 6127644672 Email sent successfully from eyal@talen-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:31:19,172 views 33860 6127644672 Function execution time: 2.2828760147094727 seconds
+INFO 2024-10-22 18:33:16,434 views 33950 6124072960 Email sent successfully from eyal@talent-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:33:16,435 views 33950 6124072960 Function execution time: 2.768709182739258 seconds
+INFO 2024-10-22 18:37:08,564 views 34123 6205009920 Email sent successfully from eyalwork0@gmail.com to eyalwork0@gmail.com.
+INFO 2024-10-22 18:37:08,566 views 34123 6205009920 Function execution time: 2.4850850105285645 seconds

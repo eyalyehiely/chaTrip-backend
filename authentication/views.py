@@ -10,10 +10,13 @@ from django.contrib.auth import get_user_model
 from rest_framework_simplejwt.tokens import RefreshToken
 import logging,time,requests,math,openai
 from django_ratelimit.decorators import ratelimit
-from chaTrip.settings import GOOGLE_PLACES_API_KEY,OPEN_AI_API_KEY
+from chaTrip.settings import GOOGLE_PLACES_API_KEY,OPEN_AI_API_KEY,EMAIL_HOST_USER,EMAIL_HOST_PASSWORD
 from .models import CustomUser,Conversation
 from django.utils import timezone
 from django.core.cache import cache
+import ssl,certifi,smtplib
+from email.message import EmailMessage
+
 
 
 logger = logging.getLogger('auth') 
@@ -464,3 +467,51 @@ def get_conversation_by_id(request, conversation_id):
         # Log the error with full details
         user_logger.error(f"Error occurred while fetching conversation {conversation_id} for user {user.username}: {str(e)}", exc_info=True)
         return Response({'error': 'An error occurred while fetching the conversation'}, status=500)
+    
+
+
+
+
+
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def contact_us_mail(request):
+    start_time = time.time()  # Track start time
+
+    # Get data from the request
+    contact_message = request.data.get('contactMessage')
+    contact_subject = request.data.get('contactSubject')
+    sender = request.user.username
+
+    if not contact_message or not contact_subject or not sender:
+        logger.error("Invalid request: missing required fields")
+        return Response({"error": "Missing contactMessage, contactSubject, or sender"}, status=400)
+
+    # Build the email message
+    msg = EmailMessage()
+    msg.set_content(f"A message from: {sender}\n The message: {contact_message}")
+    msg['Subject'] = contact_subject
+    msg['From'] = EMAIL_HOST_USER
+    msg['To'] = EMAIL_HOST_USER
+
+    context = ssl.create_default_context(cafile=certifi.where())
+
+    try:
+        # Send the email
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
+            server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
+            server.send_message(msg)
+
+        # Log success
+        logger.info(f"Email sent successfully from {sender} to {EMAIL_HOST_USER}.")
+        end_time = time.time()  # Track end time
+        logger.info(f"Function execution time: {end_time - start_time} seconds")
+
+        # Return success response
+        return Response({"message": "Email sent successfully"}, status=200)
+
+    except Exception as e:
+        # Log the error
+        logger.error(f"Failed to send email: {e}", exc_info=True)
+        return Response({"error": "Failed to send email"}, status=500)
