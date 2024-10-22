@@ -11,7 +11,7 @@ class CustomUserAdmin(BaseUserAdmin):
     Custom admin for CustomUser model.
     """
 
-    list_display = ('username', 'is_staff', 'is_active', 'date_joined')
+    list_display = ('username','saving_places', 'is_staff', 'is_active', 'date_joined')
     list_filter = ('is_staff', 'is_active', 'date_joined')
     search_fields = ('username',)
     ordering = ('username',)
@@ -20,7 +20,7 @@ class CustomUserAdmin(BaseUserAdmin):
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
-        (_('Important dates'), {'fields': ('last_login', 'date_joined')}),
+        (_('Important dates'), {'fields': ('last_login', 'date_joined','saving_places')}),
     )
     add_fieldsets = (
         (None, {
