@@ -153,7 +153,7 @@ REST_FRAMEWORK = {
 
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30),  # Adjust as needed
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),  # Adjust as needed
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
@@ -244,4 +244,5 @@ LOGGING = {
     },
 }
 
-GOOGLE_PLACES_API_KEY = os.getenv('GOOGLE_PLACES_API_KEY') 
+GOOGLE_PLACES_API_KEY = os.getenv('GOOGLE_PLACES_API_KEY')
+OPEN_AI_API_KEY = os.getenv('OPEN_AI_API_KEY')
