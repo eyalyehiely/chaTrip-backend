@@ -6,6 +6,7 @@ from .models import *
 from django.contrib.auth import get_user_model
 from email.message import EmailMessage
 from chaTrip.settings import EMAIL_HOST_PASSWORD,EMAIL_HOST_USER
+import math
 
 logger = logging.getLogger('auth')
 
@@ -20,7 +21,7 @@ def generate_and_send_otp(user):
     msg = EmailMessage()
     msg.set_content(f"Your OTP is: {otp}")
     msg['Subject'] = 'Your OTP Code'
-    msg['From'] = EMAIL_HOST_USER  # Ensure this is a valid sender email
+    msg['From'] = EMAIL_HOST_USER
     msg['To'] = user.username
 
 
@@ -39,8 +40,9 @@ def generate_and_send_otp(user):
     context = ssl.create_default_context(cafile=certifi.where())
 
     try:
+        logger.info(f"Attempting to send email via SMTP server: {EMAIL_HOST_USER} with SSL")
         with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
-            server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)  # Use actual credentials
+            server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
             server.send_message(msg)
         logger.info(f"Sent OTP to {user.username}.")
     except Exception as e:
@@ -48,9 +50,7 @@ def generate_and_send_otp(user):
         raise
 
 def verify_otp(user, otp_code):
-    """
-    Verify the provided OTP code for the user.
-    """
+    """Verify the provided OTP code for the user."""
     try:
         # Fetch the latest OTP for the user
         otp = Otp.objects.filter(user=user, is_used=False).latest('created_at')
@@ -103,3 +103,19 @@ def can_request_otp(user):
 
 
 
+# Haversine formula for calculating distance
+def haversine(lat1, lon1, lat2, lon2):
+    """
+    Calculate the great-circle distance between two points 
+    on the Earth (specified in decimal degrees using the Haversine formula).
+    """
+    # Convert decimal degrees to radians
+    lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])
+
+    # Haversine formula
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+    r = 6371  # Radius of earth in kilometers
+    return r * c  # Distance in kilometers
