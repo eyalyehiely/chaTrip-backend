@@ -1,0 +1,96 @@
+INFO 2024-10-22 05:10:48,548 utils 21131 6168686592 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-22 05:10:52,887 utils 21131 6168686592 Sent OTP to eyalwork0@gmail.com.
+DEBUG 2024-10-22 05:11:04,660 utils 21131 6168686592 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-22 05:11:04,664 utils 21131 6168686592 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-22 05:16:53,092 views 24165 6126317568 User eyalwork0@gmail.com initiated a conversation with message: what is the best way to go from azabudi hills to shinjuku station
+INFO 2024-10-22 05:16:55,264 views 24165 6126317568 OpenAI response for user eyalwork0@gmail.com: To travel from Azabu Hills to Shinjuku Station, you have a few transportation options available:
+
+1. **Taxi:** Taking a taxi is the most convenient but also the most expensive option. The journey by taxi will take around 20-30 minutes depending on traffic.
+
+2. **Train:** You can take the Toei Oedo Line from Azabu-Juban Station to Shinjuku Station. This route requires a transfer at Tochomae Station. The total journey time is around 20-30 minutes.
+
+3. **Bus:** There are direct bus services that operate between Azabu Hills and Shinjuku Station. This option may take longer depending on traffic conditions.
+
+4. **Walking:** If you enjoy
+INFO 2024-10-22 05:16:55,274 views 24165 6126317568 Conversation saved to the database for user eyalwork0@gmail.com
+INFO 2024-10-22 05:17:39,928 views 24165 6126317568 User eyalwork0@gmail.com initiated a conversation with message: show me the way on map
+INFO 2024-10-22 05:17:41,792 views 24165 6126317568 OpenAI response for user eyalwork0@gmail.com: I'm unable to access maps directly, but you can easily find directions by using map applications such as Google Maps, Apple Maps, or any other navigation app on your device. Just enter your starting point and destination, and the app will provide you with step-by-step directions to help you reach your destination. Let me know if you need any further assistance!
+INFO 2024-10-22 05:17:41,800 views 24165 6126317568 Conversation saved to the database for user eyalwork0@gmail.com
+INFO 2024-10-22 05:18:14,218 views 24165 6126317568 User eyalwork0@gmail.com initiated a conversation with message: can u give me a link to shinjuku location ?
+INFO 2024-10-22 05:18:15,727 views 24165 6126317568 OpenAI response for user eyalwork0@gmail.com: I'm sorry, but I'm unable to provide direct links. However, you can easily find the location of Shinjuku by using a mapping service like Google Maps. Just type "Shinjuku" in the search bar, and it will show you the location and provide directions if needed.
+INFO 2024-10-22 05:18:15,736 views 24165 6126317568 Conversation saved to the database for user eyalwork0@gmail.com
+INFO 2024-10-22 05:54:36,455 views 26022 6133231616 User eyalwork0@gmail.com initiated a conversation with message: hi how r u
+INFO 2024-10-22 05:54:37,652 views 26022 6133231616 OpenAI response for user eyalwork0@gmail.com: Hello! I'm just a computer program, so I don't have feelings, but I'm here to help you. How can I assist you today?
+INFO 2024-10-22 05:54:37,659 views 26022 6133231616 Conversation saved to the database for user eyalwork0@gmail.com with title: hi how r u...
+INFO 2024-10-22 16:25:41,852 views 27606 6185381888 User eyalwork0@gmail.com added a message: שלום מה שלומך
+INFO 2024-10-22 16:25:43,385 views 27606 6185381888 OpenAI response: שלום! אני בסדר, תודה. איך אני יכול לעזור לך היום?
+INFO 2024-10-22 16:25:43,387 views 27606 6185381888 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 16:26:03,516 views 27606 6185381888 User eyalwork0@gmail.com added a message: תן לי המלצה על מסעדה באקיהברה בטוקיו
+INFO 2024-10-22 16:26:06,111 views 27606 6185381888 OpenAI response: אני ממליצה לך לבקר במסעדת Sushi Saito באקיהברה בטוקיו. מסעדה זו מציעה סושי יפני אותנטי ברמה גבוהה ומשולב עם שירות מעולה. כדאי להזמין מראש מקום במסעדה כי יש תור
+INFO 2024-10-22 16:26:06,112 views 27606 6185381888 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 16:26:15,311 views 27606 6185381888 User eyalwork0@gmail.com added a message: תודה 
+INFO 2024-10-22 16:26:16,249 views 27606 6185381888 OpenAI response: בכיף! איך אני יכול לעזור?
+INFO 2024-10-22 16:26:16,249 views 27606 6185381888 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:09:06,567 views 29666 6169063424 Received request to send OTP email.
+DEBUG 2024-10-22 17:09:06,570 views 29666 6169063424 Validated email: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:06,574 views 29666 6169063424 No existing user found for email: eyalwork0@gmail.com. Creating a new user.
+DEBUG 2024-10-22 17:09:06,578 views 29666 6169063424 Created new user with email: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:06,586 utils 29666 6169063424 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:09,334 utils 29666 6169063424 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-22 17:09:09,336 views 29666 6169063424 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:24,089 views 29666 6169063424 Received request to verify OTP.
+DEBUG 2024-10-22 17:09:24,092 views 29666 6169063424 Validated data - Email: eyalwork0@gmail.com, OTP Code: 221269
+INFO 2024-10-22 17:09:24,098 views 29666 6169063424 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-22 17:09:24,101 utils 29666 6169063424 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:24,104 utils 29666 6169063424 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:24,104 views 29666 6169063424 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-22 17:09:24,108 views 29666 6169063424 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-10-22 17:09:44,752 views 29666 6169063424 User eyalwork0@gmail.com added a message: hello my friend
+INFO 2024-10-22 17:09:45,735 views 29666 6169063424 OpenAI response: Hello! How can I assist you today?
+INFO 2024-10-22 17:09:45,736 views 29666 6169063424 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:11:31,827 views 29666 6186463232 User eyalwork0@gmail.com added a message: hello amigo
+INFO 2024-10-22 17:11:32,537 views 29666 6186463232 OpenAI response: Hello! How can I assist you today?
+INFO 2024-10-22 17:11:32,537 views 29666 6186463232 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:13:31,041 views 29666 6186463232 User eyalwork0@gmail.com added a message: hello my friend
+INFO 2024-10-22 17:13:31,727 views 29666 6186463232 OpenAI response: Hello! How can I assist you today?
+INFO 2024-10-22 17:13:31,728 views 29666 6186463232 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:13:40,999 views 29666 6186463232 User eyalwork0@gmail.com added a message: tell me about tokyo
+INFO 2024-10-22 17:13:42,664 views 29666 6186463232 OpenAI response: Tokyo is the capital city of Japan and is one of the most populous urban areas in the world. It is known for its vibrant street life, bustling neighborhoods, and unique blend of traditional and modern culture. Tokyo is a global center for technology, fashion, cuisine, and entertainment, with a wide range of attractions including historic temples, skyscrapers, shopping districts, and beautiful parks. The city also hosts many annual festivals and events, making it a popular destination for tourists from around the world.
+INFO 2024-10-22 17:13:42,665 views 29666 6186463232 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:15:41,958 views 29666 6169063424 User eyalwork0@gmail.com added a message: hi
+INFO 2024-10-22 17:15:42,604 views 29666 6169063424 OpenAI response: Hello! How can I assist you today?
+INFO 2024-10-22 17:15:42,604 views 29666 6169063424 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:15:50,076 views 29666 6169063424 User eyalwork0@gmail.com added a message: tell me about tokyo
+INFO 2024-10-22 17:15:52,435 views 29666 6169063424 OpenAI response: Tokyo is the capital city of Japan and one of the most populous cities in the world. It is a bustling metropolis known for its cutting-edge technology, fashion, and pop culture. Tokyo is also a city that seamlessly blends modernity with tradition, with skyscrapers standing alongside historic temples and shrines.
+
+Some popular attractions in Tokyo include the iconic Tokyo Tower, the historic Senso-ji Temple in Asakusa, the trendy shopping district of Shibuya, and the peaceful gardens of the Imperial Palace. The city is also famous for its delicious cuisine, including sushi, ramen, and tempura.
+
+Tokyo is a city that never sleeps, with a vibrant nightlife scene, bustling markets, and countless entertainment options. It is also a
+INFO 2024-10-22 17:15:52,436 views 29666 6169063424 Conversation stored temporarily for user eyalwork0@gmail.com
+INFO 2024-10-22 17:16:52,622 views 29666 6169063424 Conversation saved to the database for user eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,319 views 33190 6125924352 Received request to send OTP email.
+DEBUG 2024-10-22 18:14:56,324 views 33190 6125924352 Validated email: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,332 views 33190 6125924352 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:56,355 utils 33190 6125924352 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:14:58,985 utils 33190 6125924352 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-10-22 18:14:58,990 views 33190 6125924352 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,464 views 33190 6125924352 Received request to verify OTP.
+DEBUG 2024-10-22 18:15:14,466 views 33190 6125924352 Validated data - Email: eyalwork0@gmail.com, OTP Code: 937292
+INFO 2024-10-22 18:15:14,469 views 33190 6125924352 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-10-22 18:15:14,472 utils 33190 6125924352 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,474 utils 33190 6125924352 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-10-22 18:15:14,474 views 33190 6125924352 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-10-22 18:15:14,486 views 33190 6125924352 Generated JWT tokens for user: eyalwork0@gmail.com
+ERROR 2024-10-22 18:19:26,786 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:22:28,068 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:23:35,684 views 33342 6166753280 Invalid request: missing required fields
+ERROR 2024-10-22 18:27:09,424 views 33665 6188986368 Invalid request: missing required fields
+ERROR 2024-10-22 18:28:58,027 views 33665 6188986368 Invalid request: missing required fields
+INFO 2024-10-22 18:29:44,716 views 33665 6188986368 Email sent successfully from eyal@talent-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:29:44,717 views 33665 6188986368 Function execution time: 2.3198468685150146 seconds
+INFO 2024-10-22 18:31:19,172 views 33860 6127644672 Email sent successfully from eyal@talen-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:31:19,172 views 33860 6127644672 Function execution time: 2.2828760147094727 seconds
+INFO 2024-10-22 18:33:16,434 views 33950 6124072960 Email sent successfully from eyal@talent-bridge.org to eyalwork0@gmail.com.
+INFO 2024-10-22 18:33:16,435 views 33950 6124072960 Function execution time: 2.768709182739258 seconds
+INFO 2024-10-22 18:37:08,564 views 34123 6205009920 Email sent successfully from eyalwork0@gmail.com to eyalwork0@gmail.com.
+INFO 2024-10-22 18:37:08,566 views 34123 6205009920 Function execution time: 2.4850850105285645 seconds

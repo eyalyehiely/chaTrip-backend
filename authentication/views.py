@@ -5,17 +5,17 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
 from .serializers import EmailSerializer, OTPSerializer,CustomUserSerializer,ConversationSerializer
-from .utils import generate_and_send_otp, verify_otp, can_request_otp
+from .utils import generate_and_send_otp, verify_otp, can_request_otp,haversine
 from django.contrib.auth import get_user_model
 from rest_framework_simplejwt.tokens import RefreshToken
-import logging,time,requests,math,openai
+import logging,time,requests,openai,ssl,certifi,smtplib
 from django_ratelimit.decorators import ratelimit
-from chaTrip.settings import GOOGLE_PLACES_API_KEY,OPEN_AI_API_KEY,EMAIL_HOST_USER,EMAIL_HOST_PASSWORD
+from chaTrip.settings import GOOGLE_PLACES_API_KEY, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
 from .models import CustomUser,Conversation
 from django.utils import timezone
 from django.core.cache import cache
-import ssl,certifi,smtplib
 from email.message import EmailMessage
+
 
 
 
@@ -37,7 +37,7 @@ def send_otp_email_view(request):
         email = serializer.validated_data['email']
         logger.debug(f"Validated email: {email}")
         try:
-            user = User.objects.filter(username=email).first()
+            user = CustomUser.objects.filter(username=email).first()
             if user:
                 logger.info(f"Found existing user for email: {email}")
             else:
@@ -122,44 +122,35 @@ def verify_otp_email_view(request):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-# Haversine formula for calculating distance
-def haversine(lat1, lon1, lat2, lon2):
-    """
-    Calculate the great-circle distance between two points 
-    on the Earth (specified in decimal degrees using the Haversine formula).
-    """
-    # Convert decimal degrees to radians
-    lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])
-
-    # Haversine formula
-    dlat = lat2 - lat1
-    dlon = lon2 - lon1
-    a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-    r = 6371  # Radius of earth in kilometers
-    return r * c  # Distance in kilometers
-
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def get_nearby_places(request):
     start_time = time.time()
-    # Get the latitude, longitude, and radius from the request
+
+    # Get the latitude, longitude, radius, and category from the request
     user_lat = request.GET.get('latitude')
     user_lng = request.GET.get('longitude')
     radius = request.GET.get('radius', 3000)  # Default radius is 3km
+    category = request.GET.get('category', '')
 
     # Log the received parameters
-    place_logger.info(f"Received parameters: Latitude: {user_lat}, Longitude: {user_lng}, Radius: {radius}")
+    place_logger.info(f"Received parameters: Latitude: {user_lat}, Longitude: {user_lng}, Radius: {radius}, Category: {category}")
 
     # Validate latitude and longitude
     if not user_lat or not user_lng:
         place_logger.error("Missing latitude or longitude in request")
         return Response({'error': 'Missing latitude or longitude'}, status=400)
 
+    # Map categories to Google Places types
+    category_map = {
+        'Restaurants': 'restaurant',
+        'Attractions': 'tourist_attraction',
+        'Accommodations': 'lodging'
+    }
+    place_type = category_map.get(category, None)
+
     # Google Places API URL
-    google_places_url = (
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
-    )
+    google_places_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
     # Parameters to pass to the Google Places API
     params = {
@@ -167,6 +158,10 @@ def get_nearby_places(request):
         'radius': radius,
         'key': GOOGLE_PLACES_API_KEY
     }
+
+    # Add category type if available
+    if place_type:
+        params['type'] = place_type
 
     # Log the outgoing API request
     place_logger.info(f"Making request to Google Places API with params: {params}")
@@ -191,7 +186,7 @@ def get_nearby_places(request):
             place_location = place.get('geometry', {}).get('location', {})
             place_lat = place_location.get('lat')
             place_lng = place_location.get('lng')
-            
+
             if place_lat and place_lng:
                 # Calculate the distance between the user's location and the place
                 distance = haversine(float(user_lat), float(user_lng), place_lat, place_lng)
@@ -200,22 +195,21 @@ def get_nearby_places(request):
 
             if distance <= 3:
                 place_info = {
-                'name': place.get('name'),
-                'type': place.get('types', []),
-                'location': place_location,
-                'distance': f"{distance:.2f} km" if distance is not None else 'Unknown',  
-                'rating': place.get('rating', 'No rating available'),
-                'opening_hours': place.get('opening_hours', {}).get('open_now', 'No hours available')                }
+                    'name': place.get('name'),
+                    'type': place.get('types', []),
+                    'location': place_location,
+                    'distance': f"{distance:.2f} km" if distance is not None else 'Unknown',
+                    'rating': place.get('rating', 'No rating available'),
+                    'opening_hours': place.get('opening_hours', {}).get('open_now', 'No hours available')
+                }
                 results.append(place_info)
-            else:
-                continue
 
     # Log the number of places found
     place_logger.info(f"Found {len(results)} places near location: {user_lat}, {user_lng}")
 
     # Return the data as JSON
     end_time = time.time()
-    print(f"Function execution time: {end_time - start_time} seconds")
+    place_logger.info(f"Function execution time: {end_time - start_time} seconds")
     return Response({'places': results}, status=200)
 
 
