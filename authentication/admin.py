@@ -1,9 +1,7 @@
-# authentication/admin.py
-
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
-from .models import CustomUser, Otp
+from .models import CustomUser, Otp, Conversation
 
 @admin.register(CustomUser)
 class CustomUserAdmin(BaseUserAdmin):
@@ -11,7 +9,7 @@ class CustomUserAdmin(BaseUserAdmin):
     Custom admin for CustomUser model.
     """
 
-    list_display = ('username','saving_places', 'is_staff', 'is_active', 'date_joined')
+    list_display = ('username', 'saving_places', 'is_staff', 'is_active', 'date_joined')
     list_filter = ('is_staff', 'is_active', 'date_joined')
     search_fields = ('username',)
     ordering = ('username',)
@@ -20,7 +18,7 @@ class CustomUserAdmin(BaseUserAdmin):
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
-        (_('Important dates'), {'fields': ('last_login', 'date_joined','saving_places')}),
+        (_('Important dates'), {'fields': ('last_login', 'date_joined', 'saving_places')}),
     )
     add_fieldsets = (
         (None, {
@@ -44,3 +42,22 @@ class OtpAdmin(admin.ModelAdmin):
         return obj.is_expired()
     is_expired.boolean = True
     is_expired.short_description = 'Expired?'
+
+@admin.register(Conversation)
+class ConversationAdmin(admin.ModelAdmin):
+    """
+    Admin interface for Conversation model.
+    """
+    list_display = ('user', 'title', 'timestamp')
+    search_fields = ('user__username', 'title')
+    list_filter = ('timestamp',)
+    ordering = ('-timestamp',)
+    readonly_fields = ('user', 'messages', 'timestamp')
+
+    def has_add_permission(self, request):
+        """ Prevent adding conversations via the admin panel. """
+        return False
+
+    def has_change_permission(self, request, obj=None):
+        """ Prevent editing conversations via the admin panel. """
+        return False
