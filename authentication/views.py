@@ -193,8 +193,9 @@ def get_nearby_places(request):
             else:
                 distance = None
 
-            if distance <= 3:
+            if distance <= float(radius):
                 place_info = {
+                    'id':place.get('place_id'),
                     'name': place.get('name'),
                     'type': place.get('types', []),
                     'location': place_location,
@@ -509,3 +510,103 @@ def contact_us_mail(request):
         # Log the error
         logger.error(f"Failed to send email: {e}", exc_info=True)
         return Response({"error": "Failed to send email"}, status=500)
+
+
+    
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def send_conversation(request, conversation_id):
+    start_time = time.time()  # Track start time
+    user = request.user
+    logger.info(f"Received POST request to send conversation {conversation_id} from user {user.username}")
+
+    try:
+        # Retrieve the conversation
+        conversation = Conversation.objects.filter(id=conversation_id).first()
+        if not conversation:
+            logger.error(f"Conversation with ID {conversation_id} not found.")
+            return Response({"error": "Conversation not found"}, status=404)
+
+        # Prepare email content with HTML formatting
+        conversation_html = f"""
+        <html>
+        <head>
+            <style>
+                body {{
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    color: #333;
+                }}
+                .conversation-title {{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }}
+                .message {{
+                    margin-bottom: 15px;
+                }}
+                .role {{
+                    font-weight: bold;
+                    color: #555;
+                }}
+                .timestamp {{
+                    font-size: 12px;
+                    color: #888;
+                    margin-bottom: 5px;
+                }}
+                .message-content {{
+                    padding: 10px;
+                    background-color: #f4f4f4;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                }}
+            </style>
+        </head>
+        <body>
+            <h2>Your conversation about "{conversation.title}" with ChaTrip</h2>
+            <div class="conversation-title">Conversation:</div>
+        """
+
+        # Loop through the messages and add them to the HTML content
+        for message in conversation.messages:
+            conversation_html += f"""
+            <div class="message">
+                <div class="role">{message['role'].capitalize()}:</div>
+                <div class="timestamp">{message['timestamp']}</div>
+                <div class="message-content">{message['message']}</div>
+            </div>
+            """
+
+        conversation_html += "</body></html>"
+
+        # Create the email message object and add the HTML content
+        msg = EmailMessage()
+        msg['Subject'] = f'Your conversation about "{conversation.title}" with ChaTrip'
+        msg['From'] = EMAIL_HOST_USER
+        msg['To'] = user.username
+        msg.add_alternative(conversation_html, subtype='html')
+
+        # Set up secure SSL context
+        context = ssl.create_default_context(cafile=certifi.where())
+
+        try:
+            # Use SMTP with TLS on port 587 instead of SSL
+            logger.info(f"Attempting to send email to {user.username} via {EMAIL_HOST_USER}")
+            with smtplib.SMTP('smtp.gmail.com', 587) as server:  # Use port 587 for TLS
+                server.starttls(context=context)  # Establish TLS connection
+                server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
+                server.send_message(msg)
+
+            logger.info(f"Email successfully sent to {user.username}")
+            end_time = time.time()  # Track end time
+            logger.info(f"Function execution time: {end_time - start_time} seconds")
+            return Response({"message": "Message sent successfully"}, status=200)
+        
+        except smtplib.SMTPException as smtp_error:
+            logger.error(f"SMTP error occurred: {smtp_error}")
+            return Response({"error": "Failed to send email"}, status=500)
+
+    except Exception as e:
+        logger.error(f"Unexpected error: {e}", exc_info=True)
+        return Response({"error": "Failed to send message"}, status=500)

@@ -19,7 +19,9 @@ urlpatterns = [
     path('conversations/', provide_conversations, name='provide_conversations'),
     path('conversations/<uuid:conversation_id>/',get_conversation_by_id),
     path('end-conversation/', end_conversation, name='end_conversation'),
-    path('contact-us/',contact_us_mail,name='end_conversation')
+    path('contact-us/',contact_us_mail,name='end_conversation'),
+    path('send-conversation/<uuid:conversation_id>/',send_conversation,name='send_conversation')
+
 
 
 
