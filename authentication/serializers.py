@@ -25,6 +25,8 @@ class CustomUserSerializer(serializers.ModelSerializer):
 
 
 class ConversationSerializer(serializers.ModelSerializer):
+    timestamp = serializers.DateTimeField(format="%d-%m-%Y", input_formats=["%d-%m-%Y", "%Y-%m-%d"])
+
 
     class Meta:
         model = Conversation
