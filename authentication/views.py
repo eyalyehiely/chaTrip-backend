@@ -15,6 +15,7 @@ from .models import CustomUser,Conversation
 from django.utils import timezone
 from django.core.cache import cache
 from email.message import EmailMessage
+from dateutil import parser 
 
 
 
@@ -481,7 +482,7 @@ def contact_us_mail(request):
 
     if not contact_message or not contact_subject or not sender:
         logger.error("Invalid request: missing required fields")
-        return Response({"error": "Missing contactMessage, contactSubject, or sender"}, status=400)
+        return Response({"error": "Missing Message, Subject, or sender"}, status=400)
 
     # Build the email message
     msg = EmailMessage()
@@ -513,6 +514,7 @@ def contact_us_mail(request):
 
 
     
+
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
@@ -564,16 +566,20 @@ def send_conversation(request, conversation_id):
             </style>
         </head>
         <body>
-            <h2>Your conversation about "{conversation.title}" with ChaTrip</h2>
+            <h2>Hi {user.username.split('@')[0].capitalize()},\n here is your conversation about "{conversation.title}" with ChaTrip</h2>
             <div class="conversation-title">Conversation:</div>
         """
 
         # Loop through the messages and add them to the HTML content
         for message in conversation.messages:
+            # Parse the timestamp using dateutil.parser to handle timezone
+            timestamp = parser.isoparse(message['timestamp'])
+            formatted_timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
+
             conversation_html += f"""
             <div class="message">
                 <div class="role">{message['role'].capitalize()}:</div>
-                <div class="timestamp">{message['timestamp']}</div>
+                <div class="timestamp">{formatted_timestamp}</div>
                 <div class="message-content">{message['message']}</div>
             </div>
             """
