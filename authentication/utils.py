@@ -19,8 +19,8 @@ def generate_otp_code():
 def generate_and_send_otp(user):
     otp = generate_otp_code()
     msg = EmailMessage()
-    msg.set_content(f"Your OTP is: {otp}")
-    msg['Subject'] = 'Your OTP Code'
+    msg.set_content(f"Hi {user.username.split('@')[0].capitalize()},\n Your One-Time Password (OTP) for account verification is: {otp}.\n This OTP is valid for the next 5 minutes.\n Please do not share this code with anyone for security purposes.")
+    msg['Subject'] = 'ChaTrip OTP Code'
     msg['From'] = EMAIL_HOST_USER
     msg['To'] = user.username
 
