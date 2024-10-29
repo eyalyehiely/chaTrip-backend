@@ -15,7 +15,8 @@ from .models import CustomUser,Conversation
 from django.utils import timezone
 from django.core.cache import cache
 from email.message import EmailMessage
-from dateutil import parser 
+from dateutil import parser
+from uuid import uuid4 
 
 
 
@@ -216,14 +217,15 @@ def get_nearby_places(request):
 
 
 
+
+
+
 @api_view(['GET', 'PUT', 'DELETE'])
 @permission_classes([IsAuthenticated])
 def user_details(request, user_id):
-    # Log the request method and user_id
     user_logger.info(f"Received {request.method} request for user: {user_id}")
 
     try:
-        # Try to find the user by id
         user = CustomUser.objects.filter(id=user_id).first()
         if not user:
             user_logger.warning(f"User {user_id} not found")
@@ -233,97 +235,83 @@ def user_details(request, user_id):
         return Response({'error': 'Server error'}, status=500)
 
     if request.method == 'GET':
-        # Log attempting to retrieve user details
         user_logger.info(f"Attempting to retrieve details for user {user_id}")
         
-        serializer = CustomUserSerializer(user)  # Serialize user data
+        serializer = CustomUserSerializer(user)
         return Response(serializer.data, status=200)
 
     elif request.method == 'PUT':
-        # Log attempting to update user details
         user_logger.info(f"Attempting to update details for user {user_id}")
-        
-        # Log request data for debugging
         user_logger.info(f"Request data for updating user {user_id}: {request.data}")
 
-        # Get the existing saving_places
+        # Get the existing saving_places or initialize as an empty list
         existing_places = user.saving_places if user.saving_places else []
 
         # Check if 'place' is provided in the request data
         place_data = request.data.get('place')
         if place_data:
-            # Append the new place to the existing saving_places
+            # Assign a unique ID if it doesn't exist in the place_data
+            # if 'id' not in place_data:
+            place_data['id'] = str(uuid4())
+            user_logger.info(f"Generated unique ID for new place: {place_data['id']}")
+
+            # Append the new place with unique ID to the existing saving_places
             existing_places.append(place_data)
-            # Update the request data with the modified saving_places
             request_data = {'saving_places': existing_places}
 
-            # Log the updated saving_places
             user_logger.info(f"Updated saving_places for user {user_id}: {existing_places}")
 
-            serializer = CustomUserSerializer(user, data=request_data, partial=True)  # Allow partial updates
+            serializer = CustomUserSerializer(user, data=request_data, partial=True)
         else:
             user_logger.warning(f"No 'place' data provided for user {user_id}")
             return Response({'error': 'No place data provided'}, status=400)
 
         if serializer.is_valid():
             try:
-                # Attempt to save the data
                 serializer.save()
                 user_logger.info(f"User {user_id} details updated successfully")
                 return Response({'message': f'User details updated successfully', 'data': serializer.data}, status=200)
             except Exception as e:
-                # Log any exceptions during the save operation
                 user_logger.error(f"Error saving user {user_id} details: {e}")
                 return Response({'error': 'Error saving data to database'}, status=500)
         else:
-            # Log validation errors
             user_logger.warning(f"Validation errors while updating user {user_id}: {serializer.errors}")
             return Response(serializer.errors, status=400)
     
     elif request.method == 'DELETE':
         try:
-            # Attempt to delete the user
             user.delete()
             user_logger.info(f"User {user_id} deleted successfully")
             return Response({'message': 'User deleted successfully!'}, status=200)
         except Exception as e:
             user_logger.error(f"Error deleting user {user_id}: {e}")
             return Response({'error': 'Error deleting user from the database'}, status=500)
-        
 
 
-@api_view(['PUT'])
+@api_view(['DELETE'])
 @permission_classes([IsAuthenticated])
 def delete_saving_place(request, user_id, place_id):
     user_logger.info(f"Received DELETE request for place: {place_id} from user: {user_id}")
     
     try:
-        # Fetch the user by id
         user = CustomUser.objects.filter(id=user_id).first()
         if not user:
             user_logger.warning(f"User {user_id} not found")
             return Response({'error': 'User not found'}, status=status.HTTP_404_NOT_FOUND)
 
-        # Ensure saving_places is a valid list
         if not user.saving_places:
             return Response({'error': 'No places saved for this user'}, status=status.HTTP_400_BAD_REQUEST)
-        
-        # Log current saving_places
-        user_logger.info(f"Current saving_places for user {user_id}: {user.saving_places}")
         
         # Filter out the place to delete by id
         updated_saving_places = [place for place in user.saving_places if place.get('id') != str(place_id)]
         
-        # Check if the place was actually in the list
         if len(updated_saving_places) == len(user.saving_places):
             user_logger.warning(f"Place {place_id} not found in user's saving_places")
             return Response({'error': 'Place not found in saved places'}, status=status.HTTP_404_NOT_FOUND)
 
-        # Update user's saving_places
         user.saving_places = updated_saving_places
         user.save()
 
-        # Log the updated saving_places
         user_logger.info(f"Updated saving_places for user {user_id}: {user.saving_places}")
         
         return Response({'message': 'Place deleted successfully', 'saving_places': user.saving_places}, status=status.HTTP_200_OK)

@@ -1,525 +1,213 @@
-INFO 2024-10-25 15:04:20,806 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:04:20,806 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:04:20,809 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:04:20,817 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:04:20,818 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:04:20,819 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:09:52,927 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:52,928 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:09:52,928 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:52,935 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:52,936 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:09:52,937 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:56,485 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:56,485 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:09:56,486 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:56,493 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:09:56,494 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:09:56,494 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:12:30,674 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:12:30,674 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:12:30,675 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:12:30,682 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:12:30,683 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:12:30,683 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:19,781 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:19,781 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:19,782 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:19,790 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:19,791 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:19,794 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:24,925 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:24,925 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:24,926 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:24,933 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:24,934 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:24,934 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:54,696 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:54,696 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:54,697 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:54,705 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:16:54,706 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:16:54,708 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:07,575 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:07,580 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:08,211 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:08,212 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:08,213 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:08,222 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:08,222 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:08,223 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:17,828 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:17,829 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:17,830 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:17,838 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:17:17,839 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:17:17,840 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:21:45,627 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:21:45,627 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:21:45,628 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:21:45,635 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:21:45,636 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:21:45,636 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:23:10,159 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:23:10,159 views 1296 6176059392 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:23:10,160 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:23:10,168 views 1296 6176059392 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:23:10,168 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:23:10,170 views 1296 6176059392 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:34:10,789 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:34:10,790 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:34:10,793 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:34:10,794 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:34:10,807 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:37:30,251 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:37:30,252 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:37:30,256 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:37:30,256 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:37:30,269 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:43:15,562 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:43:15,563 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:43:15,566 views 1296 6159233024 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:43:15,567 views 1296 6159233024 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:43:15,577 views 1296 6159233024 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:43:19,155 views 1296 6159233024 User eyal@talent-bridge.org is trying to fetch conversation with ID d98189bc-ab98-4cd2-bd02-7e5a2275412f
-INFO 2024-10-25 15:43:19,157 views 1296 6159233024 Conversation d98189bc-ab98-4cd2-bd02-7e5a2275412f retrieved successfully for user eyal@talent-bridge.org
-INFO 2024-10-25 15:46:34,984 views 5780 6197768192 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,985 views 5780 6197768192 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,987 views 5780 6197768192 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,988 views 5780 6197768192 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,990 views 5780 6197768192 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,990 views 5780 6197768192 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,996 views 5780 6197768192 Received GET request for user: 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:34,997 views 5780 6197768192 Attempting to retrieve details for user 943451de-9442-428b-9a86-be317599c5a3
-INFO 2024-10-25 15:46:39,817 views 5780 6197768192 providing all eyal@talent-bridge.org conversations
-INFO 2024-10-25 15:46:44,283 views 5780 6197768192 User eyal@talent-bridge.org is trying to fetch conversation with ID d98189bc-ab98-4cd2-bd02-7e5a2275412f
-INFO 2024-10-25 15:46:44,285 views 5780 6197768192 Conversation d98189bc-ab98-4cd2-bd02-7e5a2275412f retrieved successfully for user eyal@talent-bridge.org
-INFO 2024-10-25 15:48:04,720 views 5852 6201421824 User eyal@talent-bridge.org is trying to fetch conversation with ID c1ccf0b2-b2dc-4ec6-8333-0f8cd8634aff
-INFO 2024-10-25 15:48:04,723 views 5852 6201421824 Conversation c1ccf0b2-b2dc-4ec6-8333-0f8cd8634aff retrieved successfully for user eyal@talent-bridge.org
-INFO 2024-10-25 15:48:09,578 views 5852 6201421824 User eyal@talent-bridge.org is trying to fetch conversation with ID bcf1ddaf-ea5b-432d-83ad-15c621517f05
-INFO 2024-10-25 15:48:09,580 views 5852 6201421824 Conversation bcf1ddaf-ea5b-432d-83ad-15c621517f05 retrieved successfully for user eyal@talent-bridge.org
-INFO 2024-10-25 16:16:12,039 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,040 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,042 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,043 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,045 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,046 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,052 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:12,054 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,132 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,133 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,136 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,137 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,141 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,142 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,146 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:39,147 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,577 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,578 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,583 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,583 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,586 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,587 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,589 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:40,590 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,649 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,650 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,653 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,654 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,656 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,657 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,659 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:44,660 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,648 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,649 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,652 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,653 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,656 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,656 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,660 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:50,661 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,652 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,653 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,657 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,658 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,662 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,663 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,665 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:16:52,666 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,501 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,503 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,508 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,510 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,516 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,516 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,520 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:20,521 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,752 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,753 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,756 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,756 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,759 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,760 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,763 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:21,766 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,787 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,787 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,790 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,790 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,792 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,793 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,799 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:24,801 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,212 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,213 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,216 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,217 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,219 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,220 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,226 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:41,228 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,948 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,949 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,953 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,954 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,958 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,959 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,962 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:17:52,963 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,984 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,985 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,988 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,989 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,992 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,993 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,995 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:02,996 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,025 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,027 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,031 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,031 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,034 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,034 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,038 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:04,039 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,133 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,134 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,137 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,138 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,141 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,141 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,144 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:18:11,145 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,141 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,141 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,144 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,145 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,148 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,149 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,151 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:19,153 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,100 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,101 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,103 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,104 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,109 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,110 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,113 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:21,114 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,206 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,207 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,210 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,210 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,214 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,215 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,218 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:49,218 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,464 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,466 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,469 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,470 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,473 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,475 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,477 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:19:54,478 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,172 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,174 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,176 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,177 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,180 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,181 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,183 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:08,184 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,557 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,558 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,562 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,563 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,566 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,567 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,570 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:52,571 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,466 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,467 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,470 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,471 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,474 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,475 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,477 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:21:55,479 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,379 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,379 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,382 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,383 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,386 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,387 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,389 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:22:02,390 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:23:55,778 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:23:55,778 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:23:55,781 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:23:55,782 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:28:30,617 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:28:30,617 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:28:30,621 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:28:30,621 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,105 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,108 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,113 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,114 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,120 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,121 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,124 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,125 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,761 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,761 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,765 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,766 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,769 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,771 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,774 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:15,775 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,948 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,949 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,952 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,953 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,957 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,958 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,961 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:53:43,963 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,301 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,303 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,307 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,308 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,313 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,315 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,318 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:39,319 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,287 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,288 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,292 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,292 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,295 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,296 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,301 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:40,302 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:50,811 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:50,812 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:50,815 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:50,816 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:55,935 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:55,936 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:55,939 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:54:55,940 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,075 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,076 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,079 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,079 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,083 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,083 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,086 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 16:55:32,086 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,081 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,082 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,084 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,085 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,089 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,090 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,094 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:37,095 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,283 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,284 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,287 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,287 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,289 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,290 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,296 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:03:48,297 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,376 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,377 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,382 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,383 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,387 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,389 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,393 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:05:58,394 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,590 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,591 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,593 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,593 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,598 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,599 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,603 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:04,605 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:19,469 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:19,471 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:19,474 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:19,475 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:30,228 views 6055 6197932032 Received PUT request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:30,229 views 6055 6197932032 Attempting to update details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:30,230 views 6055 6197932032 Request data for updating user a8e207e6-7a32-4325-9550-123f597cce58: {'place': {'id': 'ChIJu55KcW2pQjQRUKkzmvWDotA', 'name': 'Palais de Chine Hotel', 'type': ['lodging', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0492706, 'lng': 121.5169525}, 'distance': '0.81 km', 'rating': 4.4, 'opening_hours': True}}
-INFO 2024-10-25 17:06:30,230 views 6055 6197932032 Updated saving_places for user a8e207e6-7a32-4325-9550-123f597cce58: [{'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.96 km', 'rating': 4, 'opening_hours': True}, {'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'point_of_interest', 'food', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.97 km', 'rating': 4, 'opening_hours': True}, {'id': 'ChIJu55KcW2pQjQRUKkzmvWDotA', 'name': 'Palais de Chine Hotel', 'type': ['lodging', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0492706, 'lng': 121.5169525}, 'distance': '0.81 km', 'rating': 4.4, 'opening_hours': True}]
-INFO 2024-10-25 17:06:30,235 views 6055 6197932032 User a8e207e6-7a32-4325-9550-123f597cce58 details updated successfully
-INFO 2024-10-25 17:06:37,796 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:37,797 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:37,800 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:37,801 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,213 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,215 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,218 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,219 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,225 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,226 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,229 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:06:41,230 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:07:34,721 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:07:34,722 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:07:34,725 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:07:34,725 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:08:03,409 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:08:03,410 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:08:03,412 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:08:03,413 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,123 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,124 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,129 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,130 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,137 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,138 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,142 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:37,142 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,913 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,913 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,917 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,918 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,921 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,922 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,926 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:10:43,926 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,623 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,624 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,629 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,630 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,635 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,636 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,641 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:13:15,642 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,113 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,114 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,119 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,120 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,125 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,126 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,129 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:01,130 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,645 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,646 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,649 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,649 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,664 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,664 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,669 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:07,669 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,130 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,132 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,136 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,137 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,141 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,141 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,144 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:14:20,145 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,834 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,835 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,840 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,841 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,844 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,846 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,851 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:01,852 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,683 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,684 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,687 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,688 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,691 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,692 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,695 views 6055 6197932032 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:15:15,696 views 6055 6197932032 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:53,580 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:53,581 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:53,585 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:53,586 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:58,016 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:58,017 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:58,021 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:24:58,022 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:07,682 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:07,683 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:07,687 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:07,687 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:20,952 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:20,953 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:20,958 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:20,959 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:26,450 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:26,451 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:26,455 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:26,456 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:28,590 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:28,591 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:28,596 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:28,597 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:29,613 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:29,614 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:29,618 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:29,619 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:56,851 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:56,853 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:56,859 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:25:56,859 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:08,058 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:08,059 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:08,062 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:08,062 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:10,376 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:10,377 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:10,380 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:10,381 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:19,456 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:19,458 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:19,464 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:19,466 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:40,697 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:40,698 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:40,702 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:26:40,702 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:27:57,181 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:27:57,182 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:27:57,190 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:27:57,191 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:43,945 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:43,948 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:43,966 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:43,969 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:48,512 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:48,513 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:48,517 views 8103 6156038144 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
-INFO 2024-10-25 17:28:48,519 views 8103 6156038144 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,774 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,775 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,778 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,779 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,782 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,783 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,789 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:10:13,789 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:11:49,494 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:11:49,495 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:11:49,498 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:11:49,498 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,729 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,729 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,733 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,734 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,737 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,738 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,743 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:12:49,744 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,811 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,815 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,827 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,831 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,857 views 35355 6203338752 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,859 views 35355 6203338752 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,878 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:05,880 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,098 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,099 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,109 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,111 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,120 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,122 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,128 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:17,129 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,231 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,234 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,240 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,241 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,250 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,252 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,258 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:50,260 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,882 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,883 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,888 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,889 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,894 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,896 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,900 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:13:51,901 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:03,985 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:03,990 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,050 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,120 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,144 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,146 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,157 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:04,159 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,563 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,565 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,651 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,652 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,674 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,675 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,693 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:13,695 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,454 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,455 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,459 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,460 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,468 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,469 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,474 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:38,475 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,529 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,531 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,536 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,550 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,557 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,559 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,562 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:40,562 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,752 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,753 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,757 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,757 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,762 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,762 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,767 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:41,769 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,890 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,891 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,894 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,895 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,898 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,899 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,903 views 35355 6253817856 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:14:55,904 views 35355 6253817856 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,226 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,227 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,232 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,233 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,238 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,239 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,243 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:19:07,244 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,896 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,897 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,901 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,902 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,907 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,908 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,912 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:33,913 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,786 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,787 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,791 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,792 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,796 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,798 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,805 views 35631 6197833728 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:20:42,806 views 35631 6197833728 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:08,353 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:08,354 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:08,358 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:08,359 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:15,553 views 35838 6137819136 Received PUT request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:15,555 views 35838 6137819136 Attempting to update details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:15,555 views 35838 6137819136 Request data for updating user a8e207e6-7a32-4325-9550-123f597cce58: {'place': {'id': 'ChIJFaLTtdKe4jARdKflx49LvdA', 'name': 'Pathumwan Princess Hotel', 'type': ['shopping_mall', 'tourist_attraction', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}}
+INFO 2024-10-29 08:29:15,555 views 35838 6137819136 Updated saving_places for user a8e207e6-7a32-4325-9550-123f597cce58: [{'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.96 km', 'rating': 4, 'opening_hours': True}, {'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'point_of_interest', 'food', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.97 km', 'rating': 4, 'opening_hours': True}, {'id': 'ChIJu55KcW2pQjQRUKkzmvWDotA', 'name': 'Palais de Chine Hotel', 'type': ['lodging', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0492706, 'lng': 121.5169525}, 'distance': '0.81 km', 'rating': 4.4, 'opening_hours': True}, {'id': 'ChIJX10H1gipQjQRfmZjnra3znU', 'name': 'amba Taipei Ximending', 'type': ['night_club', 'bar', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0451762, 'lng': 121.5056699}, 'distance': '1.88 km', 'rating': 4.3, 'opening_hours': True}, {'id': 'ChIJFaLTtdKe4jARdKflx49LvdA', 'name': 'Pathumwan Princess Hotel', 'type': ['shopping_mall', 'tourist_attraction', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}]
+INFO 2024-10-29 08:29:15,561 views 35838 6137819136 User a8e207e6-7a32-4325-9550-123f597cce58 details updated successfully
+INFO 2024-10-29 08:29:29,384 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:29,385 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:29,389 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:29:29,390 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,216 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,218 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,225 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,226 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,230 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,232 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,235 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:31:07,236 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:33:57,891 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:33:57,892 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:33:57,895 views 35838 6137819136 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:33:57,895 views 35838 6137819136 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:01,692 views 35979 6191132672 Received PUT request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:01,694 views 35979 6191132672 Attempting to update details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:01,694 views 35979 6191132672 Request data for updating user a8e207e6-7a32-4325-9550-123f597cce58: {'place': {'id': 'ChIJFaLTtdKe4jARdKflx49LvdA', 'name': 'Pathumwan Princess Hotel', 'type': ['tourist_attraction', 'lodging', 'shopping_mall', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}}
+INFO 2024-10-29 08:35:01,695 views 35979 6191132672 Generated unique ID for new place: 308787ef-bd72-48b8-8ac9-98151c7ef23e
+INFO 2024-10-29 08:35:01,695 views 35979 6191132672 Updated saving_places for user a8e207e6-7a32-4325-9550-123f597cce58: [{'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.96 km', 'rating': 4, 'opening_hours': True}, {'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'point_of_interest', 'food', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.97 km', 'rating': 4, 'opening_hours': True}, {'id': 'ChIJu55KcW2pQjQRUKkzmvWDotA', 'name': 'Palais de Chine Hotel', 'type': ['lodging', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0492706, 'lng': 121.5169525}, 'distance': '0.81 km', 'rating': 4.4, 'opening_hours': True}, {'id': 'ChIJX10H1gipQjQRfmZjnra3znU', 'name': 'amba Taipei Ximending', 'type': ['night_club', 'bar', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0451762, 'lng': 121.5056699}, 'distance': '1.88 km', 'rating': 4.3, 'opening_hours': True}, {'id': 'ChIJFaLTtdKe4jARdKflx49LvdA', 'name': 'Pathumwan Princess Hotel', 'type': ['shopping_mall', 'tourist_attraction', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}, {'id': '308787ef-bd72-48b8-8ac9-98151c7ef23e', 'name': 'Pathumwan Princess Hotel', 'type': ['tourist_attraction', 'lodging', 'shopping_mall', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}]
+INFO 2024-10-29 08:35:01,701 views 35979 6191132672 User a8e207e6-7a32-4325-9550-123f597cce58 details updated successfully
+INFO 2024-10-29 08:35:12,159 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:12,160 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:12,165 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:12,166 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,908 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,909 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,914 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,915 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,920 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,921 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,926 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:28,927 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:43,362 views 35979 6191132672 Received DELETE request for place: 308787ef-bd72-48b8-8ac9-98151c7ef23e from user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:43,368 views 35979 6191132672 Updated saving_places for user a8e207e6-7a32-4325-9550-123f597cce58: [{'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.96 km', 'rating': 4, 'opening_hours': True}, {'name': 'Royal Garden Cafe Aoyama', 'type': ['cafe', 'restaurant', 'point_of_interest', 'food', 'establishment'], 'location': {'lat': 35.6724029, 'lng': 139.7203794}, 'distance': '0.97 km', 'rating': 4, 'opening_hours': True}, {'id': 'ChIJu55KcW2pQjQRUKkzmvWDotA', 'name': 'Palais de Chine Hotel', 'type': ['lodging', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0492706, 'lng': 121.5169525}, 'distance': '0.81 km', 'rating': 4.4, 'opening_hours': True}, {'id': 'ChIJX10H1gipQjQRfmZjnra3znU', 'name': 'amba Taipei Ximending', 'type': ['night_club', 'bar', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 25.0451762, 'lng': 121.5056699}, 'distance': '1.88 km', 'rating': 4.3, 'opening_hours': True}, {'id': 'ChIJFaLTtdKe4jARdKflx49LvdA', 'name': 'Pathumwan Princess Hotel', 'type': ['shopping_mall', 'tourist_attraction', 'lodging', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7431972, 'lng': 100.5301387}, 'distance': '1.17 km', 'rating': 4.5, 'opening_hours': True}]
+INFO 2024-10-29 08:35:48,458 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,459 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,465 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,466 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,470 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,470 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,476 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:48,478 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,340 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,341 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,345 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,345 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,350 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,352 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,358 views 35979 6191132672 Received GET request for user: a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:35:58,359 views 35979 6191132672 Attempting to retrieve details for user a8e207e6-7a32-4325-9550-123f597cce58
+INFO 2024-10-29 08:37:14,827 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,828 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,830 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,831 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,833 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,833 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,837 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:14,839 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:26,675 views 35979 6191132672 Received PUT request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:26,677 views 35979 6191132672 Attempting to update details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:26,678 views 35979 6191132672 Request data for updating user bf63043e-5df6-4761-b79c-519f9a2c7958: {'place': {'id': 'ChIJQ7veH86e4jARQ4ENIGGlL0Y', 'name': 'Wat Pathum Wanaram Rachaworawihan', 'type': ['tourist_attraction', 'place_of_worship', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7460018, 'lng': 100.5370069}, 'distance': '0.44 km', 'rating': 4.6, 'opening_hours': True}}
+INFO 2024-10-29 08:37:26,678 views 35979 6191132672 Generated unique ID for new place: a83779e9-976d-46d5-a646-c234adfec1ad
+INFO 2024-10-29 08:37:26,678 views 35979 6191132672 Updated saving_places for user bf63043e-5df6-4761-b79c-519f9a2c7958: [{'id': 'a83779e9-976d-46d5-a646-c234adfec1ad', 'name': 'Wat Pathum Wanaram Rachaworawihan', 'type': ['tourist_attraction', 'place_of_worship', 'point_of_interest', 'establishment'], 'location': {'lat': 13.7460018, 'lng': 100.5370069}, 'distance': '0.44 km', 'rating': 4.6, 'opening_hours': True}]
+INFO 2024-10-29 08:37:26,683 views 35979 6191132672 User bf63043e-5df6-4761-b79c-519f9a2c7958 details updated successfully
+INFO 2024-10-29 08:37:30,738 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:30,739 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:30,742 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:30,743 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:34,857 views 35979 6191132672 Received DELETE request for place: a83779e9-976d-46d5-a646-c234adfec1ad from user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:34,861 views 35979 6191132672 Updated saving_places for user bf63043e-5df6-4761-b79c-519f9a2c7958: []
+INFO 2024-10-29 08:37:38,883 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,884 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,886 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,887 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,889 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,892 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,898 views 35979 6191132672 Received GET request for user: bf63043e-5df6-4761-b79c-519f9a2c7958
+INFO 2024-10-29 08:37:38,900 views 35979 6191132672 Attempting to retrieve details for user bf63043e-5df6-4761-b79c-519f9a2c7958
