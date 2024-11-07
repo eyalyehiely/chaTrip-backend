@@ -1,1 +1,1 @@
-web: gunicorn ChaTrip.wsgi --log-file -
+web: gunicorn ChaTrip.wsgi
