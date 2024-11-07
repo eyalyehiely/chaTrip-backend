@@ -179,7 +179,7 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # Update to your desired sender email
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    os.getenv('FRONTEND_URL',"http://localhost:3000")
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
