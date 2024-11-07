@@ -1,1 +1,1 @@
-web: gunicorn ChaTrip.wsgi
+web: gunicorn chaTrip.wsgi
