@@ -1,29 +1,14 @@
-INFO 2024-10-29 08:09:51,763 views 35355 6203338752 Received request to send OTP email.
-DEBUG 2024-10-29 08:09:51,769 views 35355 6203338752 Validated email: eyalwork0@gmail.com
-INFO 2024-10-29 08:09:51,774 views 35355 6203338752 Found existing user for email: eyalwork0@gmail.com
-INFO 2024-10-29 08:09:51,786 utils 35355 6203338752 OTP entry saved for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:09:51,820 utils 35355 6203338752 Attempting to send email via SMTP server: eyalwork0@gmail.com with SSL
-INFO 2024-10-29 08:09:56,894 utils 35355 6203338752 Sent OTP to eyalwork0@gmail.com.
-INFO 2024-10-29 08:09:56,900 views 35355 6203338752 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-29 08:10:13,181 views 35355 6203338752 Received request to verify OTP.
-DEBUG 2024-10-29 08:10:13,182 views 35355 6203338752 Validated data - Email: eyalwork0@gmail.com, OTP Code: 887476
-INFO 2024-10-29 08:10:13,185 views 35355 6203338752 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-29 08:10:13,189 utils 35355 6203338752 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:10:13,192 utils 35355 6203338752 OTP verified successfully for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:10:13,192 views 35355 6203338752 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-29 08:10:13,195 views 35355 6203338752 Generated JWT tokens for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:36:43,144 views 35979 6191132672 Received request to send OTP email.
-DEBUG 2024-10-29 08:36:43,145 views 35979 6191132672 Validated email: eyalwork0@gmail.com
-INFO 2024-10-29 08:36:43,148 views 35979 6191132672 No existing user found for email: eyalwork0@gmail.com. Creating a new user.
-DEBUG 2024-10-29 08:36:43,154 views 35979 6191132672 Created new user with email: eyalwork0@gmail.com
-INFO 2024-10-29 08:36:43,163 utils 35979 6191132672 OTP entry saved for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:36:43,199 utils 35979 6191132672 Attempting to send email via SMTP server: eyalwork0@gmail.com with SSL
-INFO 2024-10-29 08:36:46,696 utils 35979 6191132672 Sent OTP to eyalwork0@gmail.com.
-INFO 2024-10-29 08:36:46,701 views 35979 6191132672 OTP generated and sent to email: eyalwork0@gmail.com
-INFO 2024-10-29 08:37:14,181 views 35979 6191132672 Received request to verify OTP.
-DEBUG 2024-10-29 08:37:14,182 views 35979 6191132672 Validated data - Email: eyalwork0@gmail.com, OTP Code: 444899
-INFO 2024-10-29 08:37:14,187 views 35979 6191132672 Found user for OTP verification: eyalwork0@gmail.com
-DEBUG 2024-10-29 08:37:14,189 utils 35979 6191132672 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:37:14,191 utils 35979 6191132672 OTP verified successfully for user: eyalwork0@gmail.com
-INFO 2024-10-29 08:37:14,191 views 35979 6191132672 OTP verified successfully for user: eyalwork0@gmail.com
-DEBUG 2024-10-29 08:37:14,194 views 35979 6191132672 Generated JWT tokens for user: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:10,993 views 70028 6171455488 Received request to send OTP email.
+DEBUG 2024-11-07 18:41:11,001 views 70028 6171455488 Validated email: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:11,004 views 70028 6171455488 Found existing user for email: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:11,010 utils 70028 6171455488 OTP entry saved for user: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:11,039 utils 70028 6171455488 Attempting to send email via SMTP server: eyalwork0@gmail.com with SSL
+INFO 2024-11-07 18:41:14,673 utils 70028 6171455488 Sent OTP to eyalwork0@gmail.com.
+INFO 2024-11-07 18:41:14,679 views 70028 6171455488 OTP generated and sent to email: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:32,213 views 70028 6171455488 Received request to verify OTP.
+DEBUG 2024-11-07 18:41:32,214 views 70028 6171455488 Validated data - Email: eyalwork0@gmail.com, OTP Code: 694597
+INFO 2024-11-07 18:41:32,219 views 70028 6171455488 Found user for OTP verification: eyalwork0@gmail.com
+DEBUG 2024-11-07 18:41:32,222 utils 70028 6171455488 Retrieved OTP entry: OTP for eyalwork0@gmail.com for user: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:32,225 utils 70028 6171455488 OTP verified successfully for user: eyalwork0@gmail.com
+INFO 2024-11-07 18:41:32,225 views 70028 6171455488 OTP verified successfully for user: eyalwork0@gmail.com
+DEBUG 2024-11-07 18:41:32,228 views 70028 6171455488 Generated JWT tokens for user: eyalwork0@gmail.com
